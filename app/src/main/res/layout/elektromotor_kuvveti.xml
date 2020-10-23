@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daha önce pil, akü ve üreteçlerin içinde kullanılmaya hazır bir enerji olduğunu belirtmiştik. İçerisinde mekanik, kimyasal veya başka çeşit enerjiyi elektrik enerjisine dönüştüren düzeneklere elektromotor kaynakları (emk) denir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Örneğin pil ve akümülatörler kimyasal enerjiyi elektrik enerjisine dönüştürürler. Üretecin, bir q yükünü devrede dolaştırmak için harcadığı enerji, o üretecin elektromotor kuvveti (emk) olarak tanımlanır. e ile gösterilir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Her üretecin bir iç direnci vardır. Bu iç direnç ihmal edilmemiş ise devreye seri bağlı direnç gibi hesaba dahil edilir.	"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emk1" />
+
+            <TextView
+                android:id="@+id/textView529"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Her üretecin bir iç direnci vardır. Bu iç direnç ihmal edilmemiş ise devreye seri bağlı direnç gibi hesaba dahil edilir.	"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView308"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emk2" />
+
+            <TextView
+                android:id="@+id/textView541"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="e = i . R + i . r "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView558"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Burada i . R direncin uçları arasındaki potansiyel farkı, i . r ise iç direncin uçları arasındaki potansiyel farkıdır. Ayrıca üretecin uçları arasındaki V potansiyel farkı V = i . R dir. Eğer üretecin iç direnci ihmal edilmiş ise, üretecin elektromotor kuvveti (e), üretecin uçları arasındaki potansiyel farkına eşittir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView559"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(e = V). İç direnç ihmal edilmemiş ise e > V dir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView560"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Üreteçler bir devrede akım sağlayan kaynaklardır. Bir iletken üretece bağlanmaz ise, iki ucu arasında potansiyel farkı oluşmaz ve üzerinden akım geçmez.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView561"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Üreteçlerin Bağlanması  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView562"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Seri Bağlı Üreteçler  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView563"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir üretecin (+) kutbunu diğer üretecin (–) kutbuna bağlanmasıyla elde edilen bağlama şekline seri bağlama denir.	"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView319"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emk3" />
+
+            <TextView
+                android:id="@+id/textView564"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seri bağlı üreteçlerin her birinden eşit şiddette akım çekilir. Dolayısıyla üretecin tükenme süresinden bir kazanç yoktur. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView565"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Üreteçlerin toplam elektromotor kuvveti, her birinin elektromotor kuvvetlerinin toplamına eşittir. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView566"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="eT = e1 + e2 + e3 dür. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView567"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Üreteçler seri bağlı olduğundan iç dirençlerinin toplamı, "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView568"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rT = r1 + r2 + r3 olur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView569"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Ters Bağlı Üreteçler  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView571"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir üretecin (–) kutbunu diğer üretecin (–) kutbuna ya da (+) kutupların birbirine bağlanmasıyla elde edilen bağlama şekline ters bağlama denir. Ters bağlamada emk lar birbirini yok edici yönde etki yapar. Eğer ters bağlı iki üreteç özdeş ise toplam emk sıfır olur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView572"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="eT = |e1 – e2| dir.	"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView320"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emk4" />
+
+            <TextView
+                android:id="@+id/textView573"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Büyük emk değeri küçük emk değerinden çıkarılır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView574"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Üreteçler ters bağlı olsa da iç dirençler seri bağlıdır. Dolayısıyla toplam iç direnç  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView575"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rT = r1 + r2 olur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView576"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şekildeki gibi, ikiden fazla üreteç var ise, önce seri bağlı olanların emk ları toplanır. Sonra diğer emk ile aradaki fark alınır.	"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView321"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emk5" />
+
+            <TextView
+                android:id="@+id/textView577"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="e1 + e2 > e3 ise, toplam emk,  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView578"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="eT = e1 + e2 – e3 olur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView579"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Paralel Bağlı Üreteçler  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView580"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Üreteçlerin (+) kutbu bir noktada (–) kutbu da başka bir noktada olacak şekilde birleştirilerek oluşturulan bağlamaya, paralel bağlama denir. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView322"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emk6" />
+
+            <TextView
+                android:id="@+id/textView581"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paralel bağlı üreteçler özdeş seçilir. Özdeş olmaması durumunda devre analizi için yeni kurallar gereklidir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView582"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paralel bağlı üreteçlerin devreye verdikleri akımlar eşit olur. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView583"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Toplam emk üreteçlerden birinin emk sına eşittir. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView584"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="eT = e dir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView585"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İç direnci önemsiz paralel bağlı üreteç sayısının artması devreden geçen akım şiddetini etkilemez. Fakat üreteç sayısı arttıkça her bir üreteçten geçen akım azalır ve üreteçlerin tükenme süreleri artar.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView586"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paralel bağlamanın özelliği gereğince, toplam iç direnç, "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView323"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emk7" />
+
+            <TextView
+                android:id="@+id/textView587"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Üreteçlerin Tükenme Süresi  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView589"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir üretecin tükenme süresi, yapılış boyutlarına, yapısını oluşturan maddenin cinsine ve üreteçten birim zamanda çekilen akıma bağlıdır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView590"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buna göre, devreye eşit şiddette akım veren seri bağlı özdeş üreteç ya da piller paralel bağlı olanlara göre daha çabuk tükenir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView592"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ELEKTRİKSEL ENERJİ  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView593"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uçları arasındaki potansiyel farkı V olan üretece bir R direnci bağlandığında i akımı geçiyor. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView324"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emk8" />
+
+            <TextView
+                android:id="@+id/textView594"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Akım geçerken çok hızlı hareket eden elektronlar iletkenin atom ve moleküllerine çarparak kazandıkları kinetik enerjilerin bir kısmını bu parçacıklara aktarırlar. Bu enerji ısı enerjisi alarak açığa çıkar. İletkenden t sürede akım geçtiğinde ısıya dönüşen elektriksel enerji,  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView595"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E=V.i.t  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView596"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="bağıntısından bulunur. V = i . R değeri yerine yazılırsa,  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView597"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E = i2 . R . t olarakta kullanılabilir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView598"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="V; volt, i : amper, t : saniye cinsinden alınırsa, elektriksel enerji Joule cinsinden bulunur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView599"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isıca yalıtılmış kapta bulunan sıvı içine bir iletken daldırılıp üzerinden i akımı geçirilirse, iletkenin verdiği ısı enerjisi sıvı tarafından alınır.	"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView325"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emk9" />
+
+            <TextView
+                android:id="@+id/textView600"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verilen ısı alınan ısıya eşittir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView601"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q verilen = Q alınan  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView326"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emk10" />
+
+            <TextView
+                android:id="@+id/textView602"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c : sıvının öz ısısı  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView603"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="m : sıvının kütlesi  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView604"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DT : sıcaklık değişimi  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView605"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bütün elektrikli su ısıtıcıları bu sisteme göre çalışmaktadır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView606"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektriksel Güç  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView607"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir iletkenin birim zamanda yaydığı elektriksel enerjiye o iletkenin gücü denir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView608"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buna göre, elektriksel güç,  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView327"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emk11" />
+
+            <TextView
+                android:id="@+id/textView610"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="P=i , V=i2.R olur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView611"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ayrıca"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView328"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emk12" />
+
+            <TextView
+                android:id="@+id/textView612"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="değeri yerine yazılırsa "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView329"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emk13" />
+
+            <TextView
+                android:id="@+id/textView613"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="olarak ta ifade edilebilir"
+                android:textSize="18sp" />
+
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

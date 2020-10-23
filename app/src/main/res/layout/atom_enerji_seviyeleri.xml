@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çekirdek çevresinde rn yarıçaplı yörüngede v çizgisel hızı ile dolanan elektronun elektriksel potansiyel enerjisi;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView352"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom_enerji2" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="             Kinetik enerjisi de;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView353"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom_enerji3" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="             Elektron yörüngede dolanırken Coulomb kuvveti merkezcil kuvvet görevini yapar.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView354"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom_enerji4" />
+
+            <ImageView
+                android:id="@+id/imageView355"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom_enerji5" />
+
+            <TextView
+                android:id="@+id/textView678"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="             Bu eşitliğin her iki tarafını 1/2 ile çarparak elektronun kinetik enerjisini  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView356"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom_enerji6" />
+
+            <TextView
+                android:id="@+id/textView679"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="             Sonuç olarak Bohr atom modeline göre elektronların toplam enerjileri her değeri alamaz, n² ile ters orantılı olan değerleri alabilir. Elektronun toplam enerjisine ATOMUN ENERJİ SEVİYESİ denir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView357"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom_enerji7" />
+
+            <TextView
+                android:id="@+id/textView680"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="bağıntısına göre proton sayısı ( Z ) bilinen bir atomun enerji seviyelerini bulabiliriz."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView681"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="             NOT : Bir elektronun toplam enerjisi En ise kinetik enerjisi Ek = - En,  Ep = 2 En  dir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView682"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="             Atom temel enerji seviyesinde iken enerjisi en küçüktür. Atomu daha yüksek enerji seviyelerine yükseltmek için coulomb çekim kuvvetine karşı iş yapmak gerekir. Elektron dışarıdan enerji alarak yüksek enerji seviyelerine geçerse  bu ( - ) enerji değerleri sıfır değerine doğru yaklaşır. Sıfır enerji değerinin anlamı şudur. Elektron artık çekirdeğe bağlı değildir. Yani atom iyon durumuna geçmiştir. En > 0 ise elektron çekirdeğin çevresinde kapalı yörüngede kalmaz.   "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom_enerji1" />
+
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

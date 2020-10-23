@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dairesel bir yörünge üzerinde sabit hızlı olarak gerçekleşen dönme hareketine Düzgün Dairesel Hareket denir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Periyot (T): "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Düzgün Dairesel Hareket yapan cismin bir tam tur atması esnasında geçen süre."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView287"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frekans (f): "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView288"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Düzgün Dairesel Hareket yapan cismin bir saniyede attığı tur sayısı.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel1" />
+
+            <TextView
+                android:id="@+id/textView289"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çizgisel (Teğetsel) Hız (V): "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView290"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Düzgün Dairesel Hareket yapan cismin birim zamanda dairesel yörünge üzerinde aldığı yol;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView176"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel2" />
+
+            <TextView
+                android:id="@+id/textView291"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Açısal Hız (w): "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView292"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Düzgün Dairesel Hareket yapan cismin birim zamanda taradığı açıya denir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView177"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel3" />
+
+            <TextView
+                android:id="@+id/textView293"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çizgisel hız ile açısal hız arasında v=wr ilişkisi vardır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView294"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Merkezcil İvme (a): "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView295"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Düzgün Dairesel Hareket yapan cismin birim zamanda hızında görülen değişme miktarıdır. Bu değişim büyüklük olarak gözlenmez, fakat yön olarak hız sürekli değişir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView178"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel4" />
+
+            <TextView
+                android:id="@+id/textView296"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Merkezcil Kuvvet (Fm):  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView179"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel5" />
+
+            <TextView
+                android:id="@+id/textView297"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Düzgün Dairesel Hareket Uygulamaları "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView298"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Yatay Düzlemde Düzgün Dairesel Hareket  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView180"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel7" />
+
+            <TextView
+                android:id="@+id/textView299"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Düşey Düzlemde Düzgün Dairesel Hareket  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView181"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel9" />
+
+            <ImageView
+                android:id="@+id/imageView182"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel10" />
+
+            <TextView
+                android:id="@+id/textView300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Yatay Viraj "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView301"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Viraja giren araba tekerlekleri ile yer arasındaki sürtünme sayesinde kaymadan virajı alabilir. Buna göre virajı kaymadan alabileceği en büyük hız;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView183"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel11" />
+
+            <TextView
+                android:id="@+id/textView302"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Eğimli Viraj "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView303"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eğimli virajlarda cismin merkezkaç kuvvetini eğimden dolayı arabanın ağırlığı dengeler ve böylece sürtünmeye gerek duyulmaz. Bu durumda;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView184"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel13" />
+
+            <ImageView
+                android:id="@+id/imageView185"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel14" />
+
+            <TextView
+                android:id="@+id/textView304"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Rotor  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView305"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cismin düşmeden dönebilmesi için;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView186"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel15" />
+
+            <ImageView
+                android:id="@+id/imageView187"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel16" />
+
+            <TextView
+                android:id="@+id/textView306"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Yatay Düzlemde Dönen Tabla:  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView307"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cismin kaymadan durabilmesi için;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView188"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel17" />
+
+            <ImageView
+                android:id="@+id/imageView189"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel18" />
+
+            <ImageView
+                android:id="@+id/imageView190"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel19" />
+
+            <TextView
+                android:id="@+id/textView309"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İç çemberdeki hareketli için (pembe cisim) v = ωr  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView310"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dış çemberdeki hareketli için çizgisel sürat: 2v = ω(2r)   "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView311"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Açısal hızın aynı olmasının periyot ve frekansından aynı olması anlamına geldiğini fark etmelisiniz"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView191"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel20" />
+
+            <TextView
+                android:id="@+id/textView312"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Merkezcil ivme"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView192"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel22" />
+
+            <TextView
+                android:id="@+id/textView313"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çemberin çevresinin çizgisel sürate oranı periyodu verir"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView193"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel21" />
+
+            <TextView
+                android:id="@+id/textView314"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Periyodu ivme denklemine yerleştirirsek"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView194"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/duzgundairesel23" />
+
+            <TextView
+                android:id="@+id/textView315"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Açısal hızın önemli bir özelliği de vektör olmasıdır. Açısal hız vektörel bir büyüklüktür. Dönme hareketinin bir yönü var. Bir cisim saat yönünde ya da saat yönünün tersine doğru dönebilir. Açısal hız vektörünün yönü dönüş yönünü gösterir. Dönen cisimlerin açısal hız vektörlerinin yönü sağ el kuralına göre bulunur."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView316"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saat yönüde dönen bir cismin açısal hızını bulmak için, sağ elinizin dört parmağını dönen cismin hareket yönünü gösterecek şekilde kıvırırsınız,( bu durumda elinizi ters çevirmeniz gerekir) baş parmağınız açısal hız vektörünün yönünü gösterir."
+                android:textSize="18sp" />
+
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

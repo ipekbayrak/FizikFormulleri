@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1-) İki vektörün toplamı ya da farkı yine bir vektördür.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/vektorler1" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2-) Vektörlerde toplamada değişme özelliği vardır.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/vektorler2" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3-) Bir vektörü skaler bir sayıyla çarpmak yada bölmek o vektörün büyüklüğünü çarpmak yada bölmek demektir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/vektorler3" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4-) Bir vektörü (-) ile çarpınca  aynı vektörün zıt yönlü olanını elde ederiz. Büyüklüğü ve doğrultusu aynı,  zıt yönlü vektörlere zıt vektör denir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/vektorler3" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5-) Bir vektörün doğrultusu, yönü ve şiddeti değiştirilmeden istenilen yere taşınabilir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6-) Doğrultusu, yönü ve şiddeti aynı olan vektörler eşit vektörlerdir. Uygulama noktası (Başlangıç noktası) farklı olabilir  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/vektorler5" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vektörlerin Toplanması:\nVektörlerin toplanmasında üç yöntem vardır. \n1.) Paralel kenar metodu \n2.) Ucuca ekleme metodu \n3.) Bileşenlere ayırma metodu"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.) Paralel kenar metodu \nBaşlangıç noktası aynı olan vektörler paralel kenara tamamlanır. Başlangıç noktası ile kesim noktasını birleştiren vektör, toplam vektörü verir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.) Paralel kenar metodu \nBaşlangıç noktası aynı olan vektörler paralel kenara tamamlanır. Başlangıç noktası ile kesim noktasını birleştiren vektör, toplam vektörü verir."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/vektorler6" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" İkiden fazla vektörün toplanması paralel kenar metoduna göre yapılırken önce rastgele iki vektörün toplamı yapılır, sonra toplam vektör ile diğer vektör paralel kenar metoduna göre yapılarak işlem devam ettirilir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.) Ucuca ekleme metodu:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vektörler den biri rastgele seçilip diğer vektörlerin doğrultusu, yönü ve şiddeti değiştirilmeden sıra ile ucuca eklenir. Birinci vektörün başlangıç noktası ile son vektörün ucuna doğru toplam vektör çizilir."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/vektorler7" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vektörler den biri rastgele seçilip diğer vektörlerin doğrultusu, yönü ve şiddeti değiştirilmeden sıra ile ucuca eklenir. Birinci vektörün başlangıç noktası ile son vektörün ucuna doğru toplam vektör çizilir."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/vektorler7" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.) Bileşenlere Ayırma: "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir vektörün bileşenleri o vektörün x ve y düzlemlerinde ki izdüşümüdür.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/vektorler8" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vektörlerin Çıkarılması: "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İki vektör arasındaki çıkarma işlemi bir vektör ile diğer vektörün zıt işaretlisinin toplamı seklinde ifade edilir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/vektorler9" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

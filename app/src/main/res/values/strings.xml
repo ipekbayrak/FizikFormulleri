@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fizik Formülleri</string>
+    <string name="pgaz_p0"><![CDATA[Pgaz < P0]]></string>
+    <string name="fx_fs_ise_cisim_harekete_ge_mez_e_er_ilk_h_zla_at_l_rsa_a_a_do_ru_yava_layan_hareket_yapar"><![CDATA[Fx < fs ise, cisim harekete geçmez. Eğer ilk hızla atılırsa, aşağı doğru yavaşlayan hareket yapar.]]></string>
+    <string name="_15_c_olmak_zere_hareket_eden_ipe_ba_l_cisim_basit_harmonik_hareket_yapar"><![CDATA[θ<15 C olmak üzere hareket eden ipe bağlı cisim Basit Harmonik Hareket yapar.]]></string>
+    <string name="fakat_d1_d2_oldu_u_i_in_f_fi_olur_ve_cisim_k_ye_do_ru_ekilir_k_taraf_ndan_ekilen_n_tr_l_cismi_k_ye_dokunursa_l_de_y_kle_y_klenir_ve_bu_durumda_da_l_k_resi_d_ey_konumun_di_er_taraf_na_do_ru_itilir"><![CDATA[Fakat d1 < d2 olduğu için, Fç > Fi olur ve cisim K ye doğru çekilir. K tarafından çekilen nötr L cismi K ye dokunursa, L de (+) yükle yüklenir ve bu durumda da L küresi düşey konumun diğer tarafına doğru itilir.]]></string>
+    <string name="b_m1_m2_ise_a1_a2_dir"><![CDATA[b. m1 > m2 ise a1 < a2 dir.]]></string>
+    <string name="c_m1_m2_ise_a1_a2_dir"><![CDATA[c. m1 < m2 ise a1 > a2 dir.]]></string>
+</resources>

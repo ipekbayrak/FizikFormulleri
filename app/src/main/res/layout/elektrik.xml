@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektrikle yüklü ve potansiyelleri farklı olan iki iletken küreyi, iletken bir telle birleştirirsek, potansiyel farkından dolayı iletkende yük akışı meydana gelir. Bir iletkenden uzun süreli elektrik yükü akışını sağlamak için, iletkenin iki ucu arasında sürekli bir potansiyel farkı oluşturmak gerekir.  Bunu da pil, batarya, akümülatör vb. düzeneklerle sağlayabiliriz.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektrik Akım Şiddeti "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İletken bir ortamın herhangi bir kesitinden belirli bir yönde, birim zamanda geçen elektrik yükü miktarına elektrik akım şiddeti denir. “i” ile gösterilir. Buna göre bir iIetkenin herhangi bir kesitinden t sürede q kadar net yük geçiyorsa, iletkenden geçen akım şiddeti  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik1" />
+
+            <ImageView
+                android:id="@+id/imageView299"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik2" />
+
+            <TextView
+                android:id="@+id/textView522"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pozitif (+) Elektrik yüklerinin hareketi; potansiyeli yüksek o|lan noktadan, potansiyeli düşük olan noktaya doğrudur. Elektrik akımının yönü, pozitif (+) yüklerin hareket yönü olarak veya elektron hareketinin zıt yönünde kabul edilir. İletken metallerde elektrik akımı, serbest hareket edebilen elektronlarla sağlanır."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView523"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir İletkenin Direnci "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView524"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir iletkenin, yük akışına (metallerin ise elektron akışına) karşı koymasına direnç denir.Bir iletkenin direnci: "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView525"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Uzunluğu (l) ile doğru orantılıdır. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView526"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Kesit alanı (A) ile ters orantılıdır. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView527"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Öz direnci (ρ) ile doğru orantılıdır."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik3" />
+
+            <TextView
+                android:id="@+id/textView528"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Burada (ρ) öz dirençtir. Kesiti 1m2 olan bir iletkenin, bir birim boyunun (1m) direncine, öz direnç denir. Maddenin cinsini ifade eder."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView530"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Not: Öz direncin tersine elektriksel iletkenlik denir. Gümüş, bakır ve altın, iletkenliği en yüksek metallerdir. Ancak gümüş ve altın pahalı olduğundan, iletken olarak en çok bakır kullanılmaktadır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView531"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Direncin Sıcaklıkla Değişimi "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView301"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik4" />
+
+            <TextView
+                android:id="@+id/textView532"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir elektrik devresindeki devre elemanları, elektrik akımının etkisiyle veya dış etkilerle ısınırsa dirençleri artar ve devreden geçen akım şiddeti zamanla azalır. Bir iletkenin direnci sıcaklıkla;"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView302"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik5" />
+
+            <TextView
+                android:id="@+id/textView533"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="kadar değişir. Bu durumda iletkenin direncinin sıcaklığa bağlı ifadesi "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView303"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik6" />
+
+            <TextView
+                android:id="@+id/textView534"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="eşitliğiyle verilir. Burada, R0 iletkenin T0 sıcaklıktaki direnci; αα ise direncin sıcakIıkla değişim katsayısıdır. (birimi 1/°C) Not: Metaller soğutulursa dirençleri azalır.Mutlak sıfır (0°K = -273°C) sıcaklıkta bazı metaller süper iletken hale gelir. (Alüminyum, kalay, kurşun, çinko gibi)"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView535"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ohm Kanunu "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView536"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir iletkenin iki ucu arasındaki gerilimin (potansiyel farkının) iletkenden geçen akım şiddetine oranı sabittir. Bu sabit değere, elektriksel direnç ya da direnç denir. Buna göre bir iletkenin direnci:"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView304"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik7" />
+
+            <TextView
+                android:id="@+id/textView537"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ile verilir. Bu oranı ilk defa George Simon Ohm (1789- 1854) bulduğu için bu bağıntıya Ohm Kanunu denmiştir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView538"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dirençler elektrik devrelerinde, "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView305"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik8" />
+
+            <TextView
+                android:id="@+id/textView539"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Değişken (ayarlanabilen) dirençlere Reosta denir. Reosta sürgüsü 1 yönünde hareket ettirilirken devrenin toplam direnci azalır. Üretecin emk değeri sabit ve direnç ile akım ters orantılı olduğundan devrede dolaşan akım şiddeti ve dolayısıyla lambanın parlaklığı artar."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView306"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik18" />
+
+            <TextView
+                android:id="@+id/textView540"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Akım Şiddetinin ve Potansiyel Farkının Ölçülmesi "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView307"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik9" />
+
+            <TextView
+                android:id="@+id/textView542"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektrik akım şiddeti Ampermetre ile, iki nokta arasındaki potansiyel fark ise Voltmetre ile ölçülür. İki ucu arasındaki potansiyel farkı ve üzerinden geçen akım şiddeti bilinen bir devre elemanının direnci de Ohm Kanununa göre bulunabilir. Bir devre direnci Ohmmetre denen bir cihazla da ölçülebilir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView543"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ampermetre devreye seri bağlanır. Devre akımını etkilememesi için, ampermetrenin direncinin çok küçük (mümkünse sıfıra yakın) olması gerekir. Bu nedenle Ampermetrenin direnci ihmal edilir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView544"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voltmetre ise potansiyel farkı ölçülecek noktalar arasına paralel olarak bağlanır. Üzerinden akım geçmemesi için direncinin çok büyük olması gerekir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView545"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dirençlerin Bağlanması  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView546"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektrik devrelerinde dirençleri seri ya da paralel bağlayarak, uygulamada ve teoride bazı kolaylıklar sağlanır. Birden çok direncin yaptığı etkiyi tek başına yapabilen dirence eşdeğer direnç denir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView547"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Dirençlerin Seri Bağlanması "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView309"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik10" />
+
+            <TextView
+                android:id="@+id/textView548"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dirençlerin aynı akım yolu üzerinde olacak şekilde uç uca eklenmeleriyle oluşan bağlanma şeklidir. Şekildeki R1 ve R2 dirençleri seri bağlanmıştır. A ampermetresinden geçen akım, R1 ve R2  dirençlerinden aynen geçer. Buna göre seri bağlı dirençlerden geçen akımlar birbirine eşittir."
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView310"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik11" />
+
+            <TextView
+                android:id="@+id/textView549"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dirençlerin uçları arasındaki potansiyel fark sistemi besleyen üretecin gerilimine eşittir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView550"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Devrenin eşdeğer direnci, direnç büyüklüklerinin aritmetik toplamına eşittir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView311"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik12" />
+
+            <ImageView
+                android:id="@+id/imageView312"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik13" />
+
+            <TextView
+                android:id="@+id/textView551"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Not: Seri bağlı direnlerin uçları arasındaki gerilim dirençlerin büyüklükleri ile doğru orantılıdır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView552"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dirençlerin Paralel Bağlanması  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView313"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik14" />
+
+            <TextView
+                android:id="@+id/textView553"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İki yada daha fazla direncin, birer uçlarındirenc6ın kendi aralarında birleştirilmeleri ile oluşan bağlama şeklidir. Üreteçten çıkan ana kol akımı, düğüm noktasında (K bağlantı noktasında) direnç sayısı kadar kola ayrıIır. Bu durumda paralel bağlı dirençlerde; Ana koldan gelen akım paralel bağlı dirençler üzerinden geçerken, direncin büyüklüğüyle ters orantılı olarak dağılır. Böylece dirençler üzerinden geçen akımların toplamı, ana koldan geçen akıma eşit olur:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView314"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik11" />
+
+            <TextView
+                android:id="@+id/textView554"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dirençlerin ve üreteçlerin birer uçları aynı noktaya bağlı olduğundan paralel kolların gerilimi üretecin gerilimine eşittir.  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView315"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik12" />
+
+            <TextView
+                android:id="@+id/textView555"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Devrenin eşdeğer direnci;  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView316"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik15" />
+
+            <TextView
+                android:id="@+id/textView556"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yukarıdaki bağıntıdan paralel bağlı iki direnç için;  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView317"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik16" />
+
+            <TextView
+                android:id="@+id/textView557"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Not: n tane özdeş direnç paralel bağlı ise;  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView318"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektrik17" />
+
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

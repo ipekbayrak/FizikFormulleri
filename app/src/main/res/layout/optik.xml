@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ÇUKUR AYNA  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik1" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çukur aynaların toplayıcı özelliği vardır. Bu aynalar güneş ışınlarına dik tutulursa, ışınlar yansıdıktan sonra bir noktada kesişirler. Bu noktaya aynanın odak noktası denir ve F ile gösterilir."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik2" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aynanın merkezi M ile gösterilir ve aynı zamanda aynanın yarıçapına eşittir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik33" />
+
+            <TextView
+                android:id="@+id/textView149"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çukur aynada özel ışınlar:  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik3" />
+
+            <TextView
+                android:id="@+id/textView150"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çukur aynaya paralel gelenler ışınlar odaktan geçecek şekilde yansır. Aynı zamanda odaktan gelen ışınlar da paralel yansır.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik4" />
+
+            <TextView
+                android:id="@+id/textView151"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çukur aynaya 3F noktasını keserek gelen ışın 1,5 F‘den geçecek şekilde yansır. Aynı zamanda 1,5 F den gelen ışında 3F’ den geçecek şekilde yansır.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik5" />
+
+            <TextView
+                android:id="@+id/textView152"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çukur aynaya merkezden ( 2F ) gelen ışınlar kendi üzerinden geri yansır.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik6" />
+
+            <TextView
+                android:id="@+id/textView153"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çukur aynanın tepe noktasına gelen ışın asal eksenle eşit açı yapacak şekilde yansır.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik7" />
+
+            <TextView
+                android:id="@+id/textView154"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çukur aynaya 0,5F‘den gelen ışınlar  F‘den geçecek şekilde yansır.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik9" />
+
+            <TextView
+                android:id="@+id/textView155"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çukur aynaya rastgele gelen bir ışın aynanın normali olan merkezden gelen çizgiyle eşit açıyla yapacak şekilde yansır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView156"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yardımcı odak yardımıyla yansıyan ışının çizilmesi;  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView158"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yansıyan ışını çizmek için;  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView157"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1-) Merkezden geçen ve gelen ışına paralel olan yardımcı bir eksen çizilir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView159"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2-) Asal eksene dik olan ve odaktan geçen odak düzlemi çizilir. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView160"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3-) İki eksenin kesiştiği nokta yardımcı odaktır ve yansıyan ışın bu noktadan geçer. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik10" />
+
+            <TextView
+                android:id="@+id/textView161"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çukur aynada görüntü  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView162"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1-) Sonsuzdaki bir cismin çukur aynada görüntüsü aynanın odağındadır ve görüntü noktasaldır. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik11" />
+
+            <TextView
+                android:id="@+id/textView163"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2-) Çukur aynada 3F noktasında bulunan bir cismin, 1.5 F ‘de gerçek ve ters görüntüsü oluşur. Boyu ise kendi boyunun yarısıdır. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik12" />
+
+            <TextView
+                android:id="@+id/textView164"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3-) Çukur aynada merkezde ( 2F ) ‘de bulunan bir cismin görüntüsü yine merkezde ( 2F ) , ters ve gerçektir. Boyu ise cismin boyuna eşittir. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik13" />
+
+            <TextView
+                android:id="@+id/textView165"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4-) Çukur aynada 1,5 F noktasında bulunan bir cismin, 3F ‘de gerçek ve ters görüntüsü oluşur. Boyu ise kendi boyunun iki katıdır. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik14" />
+
+            <TextView
+                android:id="@+id/textView166"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5-) Çukur aynanın odağındaki noktasal bir cismin görüntüsü sonsuzdadır. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik15" />
+
+            <TextView
+                android:id="@+id/textView167"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6-) Çukur aynada 0,5F üzerinde buluna bir cismin görüntüsü ayna arkasında odak uzaklığı mesafesinde, düz ve sanaldır. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik16" />
+
+            <TextView
+                android:id="@+id/textView168"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7-) Çukur aynanın tepe noktası üzerinde bulunan bir cismin görüntüsü yine tepe noktası üzerinde, düz, sanal ve boyu cismin boyuna eşittir. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik17" />
+
+            <TextView
+                android:id="@+id/textView169"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özel Durumlar"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik18" />
+
+            <TextView
+                android:id="@+id/textView170"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir cisim çukur aynanın odak noktasına yaklaşırken görüntüsünün boyu artar.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik19" />
+
+            <TextView
+                android:id="@+id/textView171"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çukur aynada bir cismin görüntüsü aşağıdaki denklemlerle bulunabilir."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik20" />
+
+            <TextView
+                android:id="@+id/textView172"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="f : Aynanın odak uzaklığı  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView173"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hc : Cismin boyu  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView174"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hg : Görüntünün boyu  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView175"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dc : Cismin aynaya uzaklığı  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView176"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dg: Görüntünün aynaya uzaklığı  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView177"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sc : Cismin odak noktasına uzaklığı  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView178"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sg : Görüntünün odak noktasına uzaklığı  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik34" />
+
+            <TextView
+                android:id="@+id/textView179"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Görüntü gerçek ise işaret ( + ), sanal ise işaret ( – ) ‘dir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView180"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir cismin görüntüsü aynada yansıyan ışınların kesişmeleriyle oluşuyorsa görüntü gerçektir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView181"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eğer bir cismin görüntüsü aynada yansıyan ışınların uzantılarının kesişmesiyle oluşuyorsa sanaldır (zahiri ya da sanal )."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView182"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TÜMSEK AYNA  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView183"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tümsek Aynada Özel Işınlar:  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView184"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1-) Tümsek aynaya paralel gelen ışınlar uzantısı odaktan geçecek şekilde yansır. Aynı zamanda odak doğrultusunda gelen ışınlar da paralel yansır. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView125"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik28" />
+
+            <TextView
+                android:id="@+id/textView185"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2-) Tümsek aynanın merkezine doğru gelen ışınlar kendi üzerinden geri yansır. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik22" />
+
+            <TextView
+                android:id="@+id/textView186"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3-) Tümsek aynanın tepe noktasına doğru gelen ışınlar asal eksenle eşit açı yapacak şekilde yansır. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView127"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik23" />
+
+            <TextView
+                android:id="@+id/textView188"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4-) Tümsek aynaya odak noktasından gelen ışın uzantısı 0,5F’ den geçecek şekilde yansır. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView128"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik24" />
+
+            <TextView
+                android:id="@+id/textView187"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5-) Tümsek aynaya rastgele bir ışın; normali olan merkezden gelen çizgi ile eşit açı yapacak şekilde yansır. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView129"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik25" />
+
+            <TextView
+                android:id="@+id/textView189"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yardımcı odak yardımıyla yansıyan ışının çizilmesi;  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView190"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yansıyan ışını çizmek için;  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView191"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1-) Merkezden geçen ve gelen ışına paralel olan bir yardımcı eksen çizilir. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView192"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2-) Asal eksene dik olan ve odaktan geçen odak düzlemi çizilir. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView193"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3-) İki eksenin kesiştiği nokta, yardımcı odaktır ve yansıyan ışın bu noktadan geçer. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik26" />
+
+            <TextView
+                android:id="@+id/textView194"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tümsek Aynada Görüntü:  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView195"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Tümsek ayna önünde bir cisim her nerede olursa olsun görüntüsü her zaman odak ile tepe noktası arasında oluşur. Görüntü daima düz, daima sanal ve daima cismin boyundan küçüktür.    "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik27" />
+
+            <TextView
+                android:id="@+id/textView196"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tümsek aynada, sonsuzdaki bir cismin odak noktasında noktasal bir görüntüsü oluşur."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik28" />
+
+            <TextView
+                android:id="@+id/textView197"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özel olarak tümsek aynanın odak noktasında bulunan bir cismin görüntüsü 0,5F ‘ dedir."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView133"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik29" />
+
+            <TextView
+                android:id="@+id/textView198"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özel Durumlar"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView199"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1-) Tümsek aynada görüntü daima sanal, düz ve küçüktür.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik30" />
+
+            <TextView
+                android:id="@+id/textView200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2-) Tümsek aynada; cisim aynaya yaklaştıkça görüntü boyu artar.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik31" />
+
+            <TextView
+                android:id="@+id/textView201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3-) Tümsek aynada bir cismin görüntüsü aşağıdaki formüllerle bulunabilir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik32" />
+
+            <ImageView
+                android:id="@+id/imageView137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/optik34" />
+
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Işıma frekansı;  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom1" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bağıntıdaki Eilk elektronun bulunduğu ilk yörüngenin enerjisi, Eson elektronun bulunduğu son yörüngenin enerjisi ve h Planck sabitidir. Elektron yüksek enerjili bir seviyeden düşük enerjili bir seviyeye geçerse Eilk > Eson olur."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView344"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom2" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çekirdek çevresindeki yörüngelerin yerlerini belirleyen fiziksel büyüklük, elektronların açısal momentumudur. Elektronlar açısal momentumları "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView345"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom3" />
+
+            <TextView
+                android:id="@+id/textView670"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tam katları olan kararlı yörüngelerde dolanır. Şekildeki gibi r yarıçaplı dairesel yörüngede dolanan, me kütleli elektronun hizı v ise, açısal momentumunun büyüklüğü;"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView346"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom4" />
+
+            <ImageView
+                android:id="@+id/imageView347"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom5" />
+
+            <TextView
+                android:id="@+id/textView671"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atomun Yörünge Yarıçapları "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView672"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Burada, elektronu yörünge üzerinde tutan merkezcil kuvvet, çekirdek ile elektron arasındaki coulomb çekim kuvvetidir. Kütlesi m, hızı v ve yörünge yarıçapi r olan elektrona etkiyen merkezcil kuvvet ve elektriksel kuvvet bağıntıları kullanılarak, n. yörüngede dönen bir elektronun yörünge yarıçapı,  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView348"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom6" />
+
+            <ImageView
+                android:id="@+id/imageView349"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom6" />
+
+            <ImageView
+                android:id="@+id/imageView350"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom7" />
+
+            <TextView
+                android:id="@+id/textView673"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atomun Enerji Seviyeleri (Yörünge Enerjileri) "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView674"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="V hızı ile çekirdek çevresinde rn yarıçaplı yörüngelerde dolanan elektronun bulunduğu yörüngenin enerjisi;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView351"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom8" />
+
+            <TextView
+                android:id="@+id/textView675"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="R=13,6 ev olup hidrojen atomunun temel haldeki yörünge enerjisidir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView676"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Z: Atom numarası  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView677"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="n: Yörünge numarası  "
+                android:textSize="18sp" />
+
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

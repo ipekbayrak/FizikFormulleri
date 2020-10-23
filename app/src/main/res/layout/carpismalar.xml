@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Herhangi bir çarpışmada momentum korunur."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Psistem = P1+ P2= Sabit "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Esnek çarpışma "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView374"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İki cismin arasındaki esnek çarpışma, toplam momentum ve toplam kinetik enerjinin çarpışmadan önce ve sonra sabit kaldığı çarpışmadır."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/carpisma1" />
+
+            <ImageView
+                android:id="@+id/imageView230"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/carpisma10" />
+
+            <ImageView
+                android:id="@+id/imageView231"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/carpisma3" />
+
+            <TextView
+                android:id="@+id/textView375"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Tamamen esnek olmayan çarpışma "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView232"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/carpisma2" />
+
+            <ImageView
+                android:id="@+id/imageView233"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/carpisma6" />
+
+            <ImageView
+                android:id="@+id/imageView234"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/carpisma7" />
+
+            <TextView
+                android:id="@+id/textView376"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İki Boyutta Çarpışmalar "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView377"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" m1V1ix + m2V2ix = m1V1sx + m2V2sx "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView378"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="m1V1iy + m2V2iy = m1V1sy + m2V2sy "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView237"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/carpisma5" />
+
+            <ImageView
+                android:id="@+id/imageView235"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/carpisma8" />
+
+            <ImageView
+                android:id="@+id/imageView236"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/carpisma9" />
+
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

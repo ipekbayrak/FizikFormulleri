@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hareket veya hareketteki değişmelerin sebeplerini araştırarak kuvvetle hareket arasındaki ilişkiyi inceleyen mekaniğin bölümüne dinamik denir"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dinamiğin üç temel prensibi vardır"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Eylemsizlik Prensibi\n2. Temel Prensip \n3. Etki – Tepki Prensibi  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView148"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Eylemsizlik Prensibi  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView204"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fnet = 0 ise, iki durum vardır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. İlk hız sıfır ise, cisim duruyordur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView203"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b. İlk hız var ise cisim aynı hızla yoluna devam eder.  " />
+
+            <TextView
+                android:id="@+id/textView205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Temel Prensip  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView207"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir cisme net bir kuvvet uygulanırsa, cisim ivmeli hareket yapar. Kuvvetle kütlenin oranı sabit ve ivmenin değerine eşittir." />
+
+            <TextView
+                android:id="@+id/textView208"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="F=m.a	" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dinamik1" />
+
+            <ImageView
+                android:id="@+id/imageView138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dinamik2" />
+
+            <TextView
+                android:id="@+id/textView209"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="F : Hareket doğrultusunda cisme etki eden net kuvvet  " />
+
+            <TextView
+                android:id="@+id/textView210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="m : Cismin kütlesidir.  " />
+
+            <TextView
+                android:id="@+id/textView211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SI birim sisteminde kuvvet birimi Newton, kütle birimi kg, ivme birimi ise m/s2 dir.  " />
+
+            <TextView
+                android:id="@+id/textView206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Etki – Tepki Prensibi  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir G ağırlıklı cisim S yüzeyi üzerine G ağırlığı kadar bir etki kuvveti uygularsa, S yüzeyi de cisme N kadar tepki kuvveti uygular. Etki kuvveti ile tepki kuvveti birbirine büyüklükçeeşit, fakat yönce zıttır. G = – N dir." />
+
+            <ImageView
+                android:id="@+id/imageView139"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dinamik5" />
+
+            <TextView
+                android:id="@+id/textView213"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SÜRTÜNME KUVVETİ  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dinamik6" />
+
+            <TextView
+                android:id="@+id/textView214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sürtünme kuvvetinin büyüklüğü yüzeye dik olan N tepki kuvveti ile doğru orantılıdır. fs = k.N olur	" />
+
+            <TextView
+                android:id="@+id/textView215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="N : Hareket doğrultusuna dik olan kuvvetlerin bileşkesidir.  " />
+
+            <ImageView
+                android:id="@+id/imageView141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dinamik7" />
+
+            <TextView
+                android:id="@+id/textView216"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sürtünme katsayısı küçük olan yüzey de sürtünme kuvveti küçük olur. " />
+
+            <ImageView
+                android:id="@+id/imageView142"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dinamik8" />
+
+            <TextView
+                android:id="@+id/textView217"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şekildeki cisim, sürtünme katsayısı aynı olan, geniş ve dar yüzeyler üzerinde çekildiğinde, her iki durumda da sürtünme kuvveti eşit olur.	" />
+
+            <ImageView
+                android:id="@+id/imageView143"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dinamik9" />
+
+            <TextView
+                android:id="@+id/textView218"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fs = k . N formülü sürtünme katsayısının maksimum değeridir. Örneğin, şekildeki K cismi ile zemin arasındaki sürtünme kuvveti 15 N ise, uygulanan kuvvet 15 N oluncaya kadar sürtünme kuvveti uygulanan kuvvete eşittir.	" />
+
+            <ImageView
+                android:id="@+id/imageView144"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dinamik10" />
+
+            <TextView
+                android:id="@+id/textView219"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="F kuvveti 10 N ise sürtünme kuvveti de 10 N dur. F kuvveti 15 N ise sürtünme kuvveti de 15 N dur. Daha sonra F kuvvetinin aldığı herdeğere karşılık sürtünme kuvveti değişmez ve 15 N olur.sonra F kuvvetinin aldığı herdeğere karşılık sürtünme kuvveti değişmez ve 15 N olur.	" />
+
+            <TextView
+                android:id="@+id/textView220"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daha sonra F kuvvetinin aldığı her değere karşılık sürtünme kuvveti değişmez ve 15N olur.  " />
+
+            <TextView
+                android:id="@+id/textView221"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sürtünme kuvveti hareket yönüne zıt yöndedir. " />
+
+            <TextView
+                android:id="@+id/textView222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sürtünme kuvvetin hareket ettirici özelliği yoktur.,hareketi engelleyici özelliği vardır. " />
+
+            <TextView
+                android:id="@+id/textView223"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sürtünme kuvveti cismin sürtünen yüzeyin cinsine bağlıdır. " />
+
+            <TextView
+                android:id="@+id/textView224"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sürtünme kuvvetinin büyüklüğü sürtünen yüzeylere dik olan tepki kuvveti  ile doğru orantılıdır. " />
+
+            <TextView
+                android:id="@+id/textView225"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sürtünme kuvveti olmasa  idi, hareket halindeki insanlar duramaz ,duran insanlar ise yürüyemezlerdi " />
+
+            <TextView
+                android:id="@+id/textView226"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sürtünme kuvveti zeminle olduğu gibi hava ile de sürtünme olur Buna hava direnci denir. " />
+
+            <TextView
+                android:id="@+id/textView227"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EĞİK DÜZLEM  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView228"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Sürtünmesi Önemsiz Eğik Düzlem  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView145"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dinamik11" />
+
+            <TextView
+                android:id="@+id/textView229"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fx = mg . sina  " />
+
+            <TextView
+                android:id="@+id/textView230"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fy = mg . cosa" />
+
+            <TextView
+                android:id="@+id/textView231"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fnet = m . a  " />
+
+            <TextView
+                android:id="@+id/textView232"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fx = m . a  " />
+
+            <TextView
+                android:id="@+id/textView233"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mgsina = m . a  " />
+
+            <TextView
+                android:id="@+id/textView234"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a = g . sina " />
+
+            <TextView
+                android:id="@+id/textView235"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Sürtünmeli Eğik Düzlem  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView146"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dinamik12" />
+
+            <TextView
+                android:id="@+id/textView236"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fs = k . N = k . mg cosa dır. (N = Fy)  " />
+
+            <TextView
+                android:id="@+id/textView237"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cismin eğik düzlemde hareket etmesi için Fx > fs olmalıdır. " />
+
+            <TextView
+                android:id="@+id/textView238"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fx = fs ise, ilk hız yoksa harekete geçmez, ilk hız varsa sabit hızlı hareket yapar. " />
+
+            <TextView
+                android:id="@+id/textView239"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fx_fs_ise_cisim_harekete_ge_mez_e_er_ilk_h_zla_at_l_rsa_a_a_do_ru_yava_layan_hareket_yapar" />
+
+            <TextView
+                android:id="@+id/textView240"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sürtünmeli eğik düzlemde cismin ivmesi,  Fx – fs = m . a bağıntısından bulunur." />
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

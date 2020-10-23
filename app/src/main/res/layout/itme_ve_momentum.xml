@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir cisme etki eden kuvvet ile kuvvetin etkime süresinin çarpımına itme denir. İtme vektörel bir niceliktir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İtme = Kuvvet x Zaman"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme1" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I: İtme (N.s)  \nF: Kuvvet (N)  \nt: Zaman (s)"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView338"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kuvvet-zaman grafiğinin altındaki alan itmeyi verir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView203"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme2" />
+
+            <TextView
+                android:id="@+id/textView339"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir cisme uygulanan net kuvvetlerin zamana göre değişim grafiklerinde grafikle zaman ekseni arasındaki alanların cebirsel toplamı toplam itmeyi verir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView204"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme3" />
+
+            <TextView
+                android:id="@+id/textView340"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eğer bir cisme aynı doğrultularda kuvvetler uygulanırsa itmelerin toplamı, toplam itmeye eşittir.Bu işlem yapılırken bir yöndeki kuvvetlerin işareti ( + ) alınırsa diğer yöndeki kuvvetlerin işareti ( – ) alınır."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme4" />
+
+            <TextView
+                android:id="@+id/textView341"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MOMENTUM"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView342"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir cisminin kütlesiyle hızının çarpımına momentum denir. Vektörel bir büyüklüktür.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView343"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Momentum = Hız x Kütle  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView344"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="P=m.V  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme5" />
+
+            <TextView
+                android:id="@+id/textView345"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="P: Momentum (kgm/s)  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView346"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="V: Hız (m/s)  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView347"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="m: Kütle (kg)  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView348"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Newton’un II. Kanununa göre;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView207"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme6" />
+
+            <TextView
+                android:id="@+id/textView349"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="m kütlesinin hız değişimi Itmeye eşittir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView208"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme7" />
+
+            <TextView
+                android:id="@+id/textView350"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Momentum vektörü hız vektörü ile aynı yöndedir. Momentum vektörü ile hız vektörü karıştırılmamalıdır.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView209"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme8" />
+
+            <TextView
+                android:id="@+id/textView351"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hız vektörü hareketin ne kadar çabuk olduğunu ve cismin hangi yönde gittiğini gösterir. Momentum değişimi gerekli itme miktarını gösterir. Momentum cismin hızının büyüklüğünü belirtmez, ancak hareketin yönünü gösterir. Momentum vektörü ile hız vektörünün büyüklüğü doğru orantılıdır."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView352"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Momentum değişimi:  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView353"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hareketli bir cismin hızı değişirse momentumu da değişir. Momentum değişimi; "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme9" />
+
+            <TextView
+                android:id="@+id/textView354"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İki Cismin Çarpışmasındaki Momentum Değişimi:  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView355"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.) Duran iki cismin etkileşmesi:  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme10" />
+
+            <ImageView
+                android:id="@+id/imageView212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme11" />
+
+            <TextView
+                android:id="@+id/textView356"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.) Hareketli iki cismin çarpışması ve momentum korunumu:  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView357"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çarpışan cisimlerden herhangi birinin kaybettiği momentumu diğeri kazanır. Yani momentum değişimleri büyüklükçe eşit ve zıt yönlüdür.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView213"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme12" />
+
+            <ImageView
+                android:id="@+id/imageView214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme13" />
+
+            <TextView
+                android:id="@+id/textView358"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu bağıntıya göre bir sistemin toplam momentumu sabittir.Buna momentum korunumu denir. Buna göre çarpışmalardan önceki toplam momentum çarpışmalardan sonraki toplam momentuma eşittir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme14" />
+
+            <TextView
+                android:id="@+id/textView359"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Geri tepme:  Bir tabancanın ateşlenmesinden önce tabanca ve merminin momentumları sıfıra eşittir. Tabanca ateşlendiğinde de barutun gaz basıncı tabancaya ve mermiye aynı itmeyi verir."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView216"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme15" />
+
+            <TextView
+                android:id="@+id/textView360"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Merkezi Esnek Çarpışma:  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView217"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme16" />
+
+            <TextView
+                android:id="@+id/textView361"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İki cismin merkezleri bir doğru üzerinde olacak şekildeki çarpışmalardır. Kütleler değişime uğramadan ayrı ayrı hareket ederler. Hem momentum hem de kinetik enerji korunacaktır.  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView218"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme17" />
+
+            <TextView
+                android:id="@+id/textView362"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cismin biri hareketli diğeri durgun ise son hızları yukarıdaki bağıntılar yardımıyla bulunabilir.  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView219"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme18" />
+
+            <ImageView
+                android:id="@+id/imageView220"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme19" />
+
+            <TextView
+                android:id="@+id/textView363"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özel Durumlar:  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView364"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.) Cisimlerin kütleleri eşitse cisimler çarpıştıktan sonra, çapışmadan önceki hızlarını değiştirirler.  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView221"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme20" />
+
+            <TextView
+                android:id="@+id/textView365"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.) Cisimleri momentumları eşit ve ters yönlü ise cisimler çarpıştıktan sonra aynı büyüklükteki hızlarını alarak geri dönerler.  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme21" />
+
+            <TextView
+                android:id="@+id/textView366"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Esnek olmayan çarpışma:  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView367"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cisimler çarpıştıktan sonra birbirine yapışarak hareket ederler.  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView223"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme22" />
+
+            <TextView
+                android:id="@+id/textView368"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu çarpışmada momentum korunur ancak enerji korunmaz.  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView224"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme23" />
+
+            <TextView
+                android:id="@+id/textView369"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Merkezi olmayan çarpışma:  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView370"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir cisim duran bir cisme merkezi olmayan bir doğrultuda çarparsa cisimler farklı doğrultulara saçılır.  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView225"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme24" />
+
+            <TextView
+                android:id="@+id/textView371"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çarpışmadan önceki ve sonraki momentumları eşittir.  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView226"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme25" />
+
+            <TextView
+                android:id="@+id/textView372"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. İki cisimin kütleleri eşitse çarpışmadan sonra aralarındaki açı 90 derece olur.  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView373"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Cisimler çarpışmadan sonra ortak hareket ederlerse son hızları momentum korunumundan yararlanılarak bulunur.  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView227"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme26" />
+
+            <ImageView
+                android:id="@+id/imageView228"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/itme27" />
+
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/debroglie1" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fotonun enerjisinin E = hf= hc/λ olduğunu da biliyoruz. Buna göre fotonun momentumu"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView340"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/debroglie2" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="olarak ifade edilebilir. Bu eşitlikten fotonun dalga boyunun momentumu ile belirlenebileceğini görürüz: λ = h/p. De Broglie momentumu p olan madde­sel parçacıkların λ = h/p şeklinde karakteristik bir dalga boyuna sahip olacak­larını önerdi. Kütlesi m ve hızı v olan bir parçacığın momentumu p = mv; oldu­ğundan o parçacığın De Broglie dalga boyu şu olur:"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView341"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/debroglie3" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ayrıca, fotonlara da olduğu gibi, De Broglie madde dalgalarının (yani dur­gun enerjisi sıfır olmayan parçacıklarla ilgili dalgalar) frekansının E = hf Einstein bağıntısına uyacağını pastüle etti; burada E parçacığın toplam enerjisi ol­mak üzere:  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView342"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/debroglie4" />
+
+            <TextView
+                android:id="@+id/textView668"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maddenin ikili doğası bu iki eşitlikte belirgindir, çünkü her iki bağıntı da hem parçacık kavramlarını (mv ve E) hem de dalga kavramlarını (λ ve f) içe­rir. Bu bağıntıların fotonlar için deneysel olarak doğrulanmış olmaları gerçe­ği, De Broglie hipotezinin çok daha kolay kabul edilmesini sağlamıştır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView669"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Davisson Germer Deneyi  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView343"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/debroglie5" />
+
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

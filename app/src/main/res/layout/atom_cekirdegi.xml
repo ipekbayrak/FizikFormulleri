@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bütün  atomların çekirdekleri iki tür tanecikten oluşur:  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Protonlar ve nötronlar. Bunun tek istisnası hidrojen atomunun çekirdeğidir. Hidrojenin çekirdeği yalnızca bir protondan oluşur. Proton ve nötron için ortak bir isim olarak nükleon da kullanılır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atom çekirdeğinin özellikleri bazı niceliklerle açıklanır. Bunlar atom numarası, nötron sayısı ve kütle numarasıdır. Atom çekirdeğindeki proton sayısına atom numarası denir ve Z ile gösterilir. Atom çekirdeğindeki nötron sayısı N ile gösterilir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView683"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atom çekirdeğindeki proton ve nötron sayılarının toplamına kütle numarası denir ve A ile gösterilir. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView684"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buna göre;  A=Z+N  olur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView685"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elementlerin bu özellikleri için geliştirilmiş standart bir gösterim şekli vardır. Örneğin kütle numarası A, atom numarası Z olan bir X elementi aşağıdaki gibi gösterilir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom_cekirdek1" />
+
+            <TextView
+                android:id="@+id/textView686"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çekirdek Yarıçapının Kütle Numarası ile İlişkisi:  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView687"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atom çekirdeğinin yarıçapı kütle numarası cinsinden aşağıdaki bağıntı ile hesaplanır.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView358"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom_cekirdek2" />
+
+            <TextView
+                android:id="@+id/textView688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çekirdeğin Yükü ve Kütlesi "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView689"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atomda elektronların negatif, protonların pozitif, nötronların ise nötr olduğunu biliyoruz. O halde atom  çekirdeği protonlardan dolayı pozitif yüklüdür. Protonun, nötronun ve elektronun kütleleri tabloda verilmiştir. Protonun ve nötronun kütleleri birbirine yakın değerlere sahipken, elektronun kütlesi bunlarınkinden çok küçüktür. Bu nedenle atomun kütlesinin büyük kısmı çekirdekte toplanmıştır.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView359"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom_cekirdek3" />
+
+            <TextView
+                android:id="@+id/textView690"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çekirdeğin Büyüklüğü ve Yoğunluğu "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView691"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atom çekirdeğinin çapı 10^(–4)m den küçük değerlerdedir. Atom boyutundaki bu tür çok küçük uzunluklar için femtometre (fm) birimi kullanılır. Femtometreye fermi de denir. Femtometre ile metre arasındaki ilişki;"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView360"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom_cekirdek4" />
+
+            <TextView
+                android:id="@+id/textView692"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kütle ve hacim değerleri göz önünde bulundurulduğunda bütün atom çekirdeklerinin yoğunluğu yaklaşık olarak eşit ve;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView361"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom_cekirdek5" />
+
+            <TextView
+                android:id="@+id/textView693"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suyun yoğunluğunun yaklaşık "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView362"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom_cekirdek6" />
+
+            <TextView
+                android:id="@+id/textView694"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="katı olan bu değer atom çekirdeğinin ne kadar yoğun olduğunu gösterir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView695"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çekirdek Kuvvetleri "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView696"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aynı yüklü protonlar birbirini ittiği halde atom çekirdeği dağılmadan kalır. Çünkü protonlar arasındaki elektrostatik itme kuvvetlerini yenen başka bir kuvvet vardır. Komşu iki proton, iki nötron ve proton-nötron çifti arasında etkin olan bu çekme kuvvetine güçlü (yeğin) nükleer kuvvet denir. Güçlü nükleer kuvvete güçlü çekirdek kuvveti de denir. Çekirdekte nötronların en önemli işlevi, protonlar arasındaki elektrostatik itme kuvvetlerini, uyguladıkları güçlü çekirdek kuvvetleri ile dengelemektir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView697"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Güçlü nükleer kuvvet elektrik yükünden bağımsız olan ve yaklaşık birkaç femtometreye ~10^(–5m) kadar etkin olan kısa menzilli bir kuvvettir. Bundan daha büyük uzaklıklarda ise güçlü çekirdek kuvvetinin etkisi sıfırdır. Çekirdekte ortaya çıkan diğer bir kuvvet de zayıf nükleer kuvvettir. Kısa menzilli olan zayıf nükleer kuvvet, çekirdek parçalanıp başka taneciklere dönüşürken ortaya çıkar. Bu kuvvet sürekli etkin değildir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView698"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bağlanma Enerjisi "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView699"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atom çekirdeğinde nükleonlar, aralarındaki güçlü çekirdek kuvvetleri ile bir arada kalır.  Böyle bir çekirdeği proton ve nötronlarına ayırmak için çekirdeğe bu çekim kuvvetlerini yenecek miktarda enerji verilmesi gerekir. Birçok çekirdekte, birbirlerine bağlı nükleonların enerjisi, aynı nükleonların ayrı ayrı dururken sahip oldukları enerjiden daha küçüktür. Yani nükleonlar bir araya gelirken enerji harcarlar. Bir çekirdeği taneciklerine ayırmak için gereken enerji, bu taneciklerin çekirdeği oluşturmak için bir araya gelirken verdikleri enerjiye eşittir; Bu enerjiye Bağlanma Enerjisi denir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çekirdeklerin Kararlılığı ve Bağlanma Enerjisi "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView701"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir atom çekirdeği, kendisini oluşturan nükleonlar dağılmadan bütünlüğünü koruyorsa, bu çekirdeğe kararlı çekirdek denir. Çekirdeğin kararlılığını, protonlar arasındaki elektrostatik itme kuvveti ile, tüm nükleonlar arasındaki güçlü çekirdek çekme kuvvetlerinin dengesi belirler. Çekirdekte proton ve nötron sayılarının eşit olması bu kararlılığı artırır, ancak yeterli değildir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView363"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atom_cekirdek7" />
+
+            <TextView
+                android:id="@+id/textView702"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="– Nükleon başına düşen bağlanma enerjisi en düşük olan atom hidrojen atomudur. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView703"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="– Atom numarası 20 den küçük olan elementlerin ve ağır elementlerin nükleon başına düşen baglanma enerjileri düşüktür. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView704"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="– Nükleon başına düşen bağlanma enerjisinin en yüksek olduğu bölgede, kütle numarası 50-100 arasındaki elementler bulunur. Enerji olarak en yüksek değerde (8,8MeV) bulunan Fe atomunun da bulunduğu bu bölgeye en kararlı bölge denir. Nikel, kobalt, bakir, çinko gibi metaller kararlı yapıdadır. Ancak radyoaktif maddelerin atom çekirdekleri kararsız yapıdadır. Radyoaktif maddeler zayıf nükleer kuvvetlerin etkisiyle bozunup kendisine komşu başka bir maddeye dönüşürler.  "
+                android:textSize="18sp" />
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

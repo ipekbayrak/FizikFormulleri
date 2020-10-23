@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yüklü paralel levhalar arasındaki potansiyel fark artırıldığında yük de doğru orantılı olarak artar.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kondan1" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yük ile potansiyel fark arasında sabit bir oran vardır ki bu orana elektriksel sığa denir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView287"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kondan2" />
+
+            <ImageView
+                android:id="@+id/imageView288"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kondan3" />
+
+            <ImageView
+                android:id="@+id/imageView289"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kondan4" />
+
+            <TextView
+                android:id="@+id/textView472"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İki iletken levha arasına bir yalıtkan madde konularak oluşturulan ve elektrik yüklerini depolamaya yarayan sistemlere kondansatör denir.   "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView290"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kondan5" />
+
+            <ImageView
+                android:id="@+id/imageView291"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kondan6" />
+
+            <ImageView
+                android:id="@+id/imageView292"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kondan7" />
+
+            <ImageView
+                android:id="@+id/imageView293"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kondan8" />
+
+            <TextView
+                android:id="@+id/textView480"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şekildeki q – V grafiğinin altındaki alan yükün yaptığı işi verir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView294"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kondan9" />
+
+            <TextView
+                android:id="@+id/textView517"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kondansatörlerin seri bağlanması: "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView518"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seri bağlı kondansatörlerde toplam yük kondansatörlerden bir tanesinin yüküne eşittir. Toplam potansiyel fark ise her bir kondansatörün potansiyel farkları toplamına eşittir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView295"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kondan10" />
+
+            <ImageView
+                android:id="@+id/imageView296"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kondan11" />
+
+            <TextView
+                android:id="@+id/textView519"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seri bağlı kondansatörlerde eşdeğer sığa, en küçük sığa değerinden daha küçüktür. Seri bağlı devrelerde kondansatörlerin yükleri eşit olduğu için sığası küçük olanın potansiyel farkı büyüktür."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView520"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kondansatörlerin paralel bağlanması: "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView521"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paralel bağlı kondansatörlerde toplam yük, her bir kondansatörün yükleri toplamına eşittir. Toplam potansiyel fark, kondansatörlerin bir tanesinin potansiyel farkına eşittir. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView297"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kondan12" />
+
+            <ImageView
+                android:id="@+id/imageView298"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kondan13" />
+
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

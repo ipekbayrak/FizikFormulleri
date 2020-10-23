@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fotoelektrik Olay:  Dalga modeli  ile elektromanyetizmanın klasik teorisi, ışığın bilinen özelliklerinin çoğunu açıklayabilmesi ne rağmen daha sonra yapılan bazı deneylerin sonuçlarını açıklayamadılar. Bunların içinde en dikkat çekeni fotoelektrik olaydır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yerdeki taşa bir cisim atılmış ve çarparak onu yerden havalandırmış gibi, foton da parçacık özelliği gösterir ve metalde ki elektronu koparır. Fotoelektrik olay fotonun parçacık doğasını gösteren bir durumdur."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView621"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Bir metal yüzeye düşen ışığın bu metal yüzeyinden elektron koparmasına fotoelektrik olay, kopan bu elektronlara da fotoelektron denir.”  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/foto1" />
+
+            <TextView
+                android:id="@+id/textView625"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hertz’in gözlemlediği fotoelektrik olay, 1905 yılında Albert Einstein tarafından Max Planck’ın “Kuantizasyon (kesikli değerler alma)” kavramı kullanılarak açıklandı. Buna göre ışık, kesikli (kuantumlu) enerji değerli paketçiklerden oluşmaktadır. Daha sonra Gilbert Lewis bu paketçiklere foton adını verdi. Bu teoriye göre, bir fotonun enerjisi Planck sabiti ile fotonun frekansının çarpımına eşittir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView626"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="                                                                     E = h . f    ve   f=c/λ  eşitliklerin den  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView330"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/foto2" />
+
+            <TextView
+                android:id="@+id/textView627"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="bağıntısı ile fotonun enerjisi hesaplanabilir. (v = c , ışık hızı)  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView628"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fotonun enerjisini joule olarak bulmak istiyorsak;Bu bağıntıda  planck sabiti, h=6,64 . 10-34 J.s ,  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView629"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c = 3 . 108 m/s ,    λ (dalga boyu)  metre    birimleriyle kullanılırsa enerji joule biriminde bulunur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView630"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fotonun enerjisini eV olarak bulmak istiyorsak;Foton enerjisi hesaplamalarını basitleştirmek için enerji birimi olarak elektronvolt (eV) denilen bir birim kullanılır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView631"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Bir elektronun bir voltluk (1 V) potansiyel farkında kazandığı enerji değerine 1 elektronvolt (eV) denir.”  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView632"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E= q .V     ( q= 1 elektronun yükü ,   V= 1 Volt )        1 eV = 1,6 . 1-19 J eşitliği vardır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView633"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fotonun enerjisini e.V olarak bulmak için   (h.c= 12400)  yazarız.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView331"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/foto3" />
+
+            <TextView
+                android:id="@+id/textView634"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Not: Foton veya bağlanma enerjisi h.c/λ ile hesaplanırken genellikle 12400 ü tam veya kolay bölen sayılar karşımıza çıkar. Soru çözdükçe aşinalık kazanıp bölme işleminin sonucunu hızlıca görebiliriz. Pratik olma bakımından soruda verilmemiş olsa da 12400 sabitini kullanabiliriz. Bu durumda dalga boyu  Å ve enerji eV biriminde olmasına dikkat ederiz. Soruda metre yada joule biriminden cevap isteniyorsa kolayca dönüşüm yapabiliriz."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView635"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(1 m = 10-10 Å; 1 eV = 1,6 . 10-19 J)  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView636"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fotoelektronun Maksimum Kinetik Enerjisi, (Ek)  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView637"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fotoelektrik olayda fotonun metalden elektron koparabilmesi için foton enerjisinin (Efoton), en az metal atomunun bağlanma enerjisi (eşik enerjisi) (Ebağlanma) kadar olması gerekir. Elektron koparken foton da kaybolur. Fotonun enerjisi bağlanma enerjisinden büyükse fazla enerji fotoelektrona kinetik enerji olarak aktarılır. Einstein fotoelektronların kinetik enerjisini (Ekinetik),  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView638"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ekinetik = Efoton – Ebağlanma         "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView639"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="bağıntısıyla ortaya koymuştur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView640"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bağlanma (eşik) enerjisi, eşik frekansı ve eşik dalga boyu  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView641"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fotonun metal yüzeyinden elektron koparabilmesi için gerekli en küçük enerji olan eşik (bağlanma) enerjisi sadece metalin cinsine bağlıdır. Bağlanma enerjisine (E0) eşit enerjideki fotonun frekansına eşik frekansı (f0), dalga boyuna da eşik dalga boyu ( λ0) denir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView332"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/foto4" />
+
+            <TextView
+                android:id="@+id/textView642"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fotoelektrik Akım  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView643"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fotosel Lamba  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView644"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Havası boşaltılmış kuartz fanusun içerisinde bir tarafına üzerine ışık düşecek metal diğer tarafı da bu metalden kopan fotoelektronların gideceği iletken yüzey bulunan lambadır.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView333"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/foto5" />
+
+            <TextView
+                android:id="@+id/textView645"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fotosel lambanın uçları iletken tel ile birleştirilirse fotoselli bir devre elde edilir. Fotoselin katodunda ki metal üzerine, metalin bağlanma enerjisinden büyük enerjili fotonlar gönderilirse kopan elektronların bir kısmı anoda ulaşır ve sonuç olarak devrede bir akım oluşur. Bu akıma fotoelektrik akım (I0) denir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView646"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“Fotoelektrik akım nelere bağlıdır?”  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView647"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Fotoelektronlar metalden etrafa gelişi güzel saçılır. Bunların ancak anotta ki metale doğru gidenleri fotoelektrik akımı oluşturur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView648"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Fotoelektrik akımın şiddeti anoda ulaşan fotoelektronlar kadardır. Bunların sayısı da katoda düşen foton sayısıyla yani ışık şiddetiyle doğru orantılıdır.(Bir foton bir elektron koparacağından ne kadar çok foton gelirse o kadar çok fotoelektron kopar ve o kadar büyük akım oluşur.),  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView649"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Işık kaynağı noktasal sa fotoelektrik akım kaynağın ışık akısıyla doğru orantılı olur. Noktasal ışık kaynağı fotosel lambanın katoduna yaklaştırılır sa katoda daha çok foton düşeceği için akım da büyür  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView650"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kullanılan ışık paralel ışın demeti olarak geliyorsa kaynağı yaklaştırmak akımı değiştirmez.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView334"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/foto6" />
+
+            <TextView
+                android:id="@+id/textView651"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Katodun yüzey alanını büyütmek metale düşen foton sayısını artıracağından kopan elektron sayısı artar. Bu da devredeki akımın büyümesine sebep olur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView652"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Anottaki metal katoda doğru yaklaştırılarak ya da anottaki metalin yüzey alanı büyültülerek daha çok fotoelektronun anoda ulaşması sağlanırsa fotoelektrik akımda artırılmış olur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView653"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Fotoelektrik akımı artırmanın diğer bir yolu da fotoelektronların maksimum kinetik enerjilerini artırmak olabilir. Bunu iki yolla elde edebiliriz;  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView654"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Katoda daha büyük enerjili foton göndermek "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView655"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Katoda daha küçük bağlanma enerjili metal yerleştirmek "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView656"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kesme Potansiyeli (Vk)  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView657"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Efoton – Eüreteç = Ebağlanma + Ekinetik  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView658"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doyma Potansiyeli (Vd)  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView659"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fotoelektrik devredeki akımı artırmanın yollarını “Fotoelektrik akım nelere bağlıdır?” başlıklı notta sıralarken 5.sinde fotoelektronların kinetik enerjisini artırmaktan bahsetmiştik. Bunu sağlamanın farklı bir yolu devreye elektronların kinetik enerjisini artıracak elektriksel potansiyel enerji kazandırmaktır. Bunu basitçe devreye bir üreteci düz yani (-) ucu katoda ve (+) ucu anoda gelecek şekilde bağlayıp yapabiliriz. Enerji korunumundan, foton enerjisi ile üretecin oluşturduğu enerjinin toplamı, metalin bağlanma enerjisiyle fotoelektronun maksimum kinetik enerjisinin toplamına eşit olur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView660"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Efoton + Eüreteç = Ebağlanma + Ekinetik  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView661"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uygulanan bu gerilim artırılırsa kopan fotoelektronların kinetik enerjileri de artar. Kopan elektronların tamamının anoda ulaştığı potansiyel değerinde devredeki akım maksimum değere ulaşır. Pilin bu potansiyel değerinedoyma potansiyeli (Vd) denir. Bundan sonra üretecin potansiyeli artırılsa da devredeki akım artmaz.  "
+                android:textSize="18sp" />
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

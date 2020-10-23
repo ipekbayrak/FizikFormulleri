@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/compton1" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Compton Olayı da fotoelektrik olay gibi ışığın tanecik özelliğini gösteren bir deneydir. Bu olayın sonucunda, fotonların da momentumlarının olduğu ortaya konulmuştur. Bu olay da yüksek enerjili  X  ışınları fotonu ile karbon atomunun serbest elektronları çarpıştırılır. Bu olay sonucunda elektron ve foton yukarıdaki şekildeki gibi saçılır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Compton olayında;  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Foton etkileşme sonucu yok olmaz. Yani soğurulmaz.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView662"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Enerji korunmuştur. Gelen foton, enerjisinin bir kısmını elektrona aktarmıştır. Kalan enerjiyle de kendisi saçılmıştır. Buna göre;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView335"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/compton2" />
+
+            <TextView
+                android:id="@+id/textView663"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Enerji denklemine göre "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView336"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/compton3" />
+
+            <TextView
+                android:id="@+id/textView664"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" dır. Frekans ile dalga boyu ters orantılı olduğundan "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView337"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/compton4" />
+
+            <TextView
+                android:id="@+id/textView665"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" olarak yazılır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView666"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Çizgisel momentum korunur. "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView338"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/compton5" />
+
+            <TextView
+                android:id="@+id/textView667"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Enerji ve momentum korunumu sonuçlarının düzenlenmesinden elde edilen aşağıdaki bağıntıyla fotonun dalga boyundaki değişim bulunur.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView339"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/compton6" />
+
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

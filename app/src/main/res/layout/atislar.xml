@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SERBEST DÜŞME"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atislar1" />
+
+            <ImageView
+                android:id="@+id/imageView147"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atislar2" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serbest düşme hareketinin grafikleri,  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView148"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atislar3" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özellikler"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView241"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.) Serbest düşmeye bırakılan cismin hızı, ivmesi ve süresi cisimlerin şekline bağlı değildir.  "
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView149"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atislar4" />
+
+            <TextView
+                android:id="@+id/textView242"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.) Serbest düşmeye bırakılan cismin hızı, ivmesi ve hareket süresi cisimlerin kütlesine bağlı değildir.  "
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView150"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atislar5" />
+
+            <TextView
+                android:id="@+id/textView243"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.) Bütün cisimlerin ivmesi g ’dir.  "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView244"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.) Bütün serbest düşme hareketleri ilk hızsız, sabit ivmeli ve düzgün hızlanan harekettir.  "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView245"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YUKARIDAN AŞAĞI DÜŞEY ATIŞ HAREKETİ "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView246"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Belli bir yükseklikten yere dik olarak ilk hızla atılan cismin yaptığı harekettir. ( a = g )  "
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView151"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atislar6" />
+
+            <ImageView
+                android:id="@+id/imageView152"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atislar7" />
+
+            <TextView
+                android:id="@+id/textView247"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grafikler"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView153"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atislar8" />
+
+            <TextView
+                android:id="@+id/textView248"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AŞAGIDAN YUKARIYA DÜŞEY ATIŞ "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView249"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cisim yerçekiminden dolayı önce yavaşlar, durur, sonrada serbest düşme hareketi yapar.  "
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView154"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atislar9" />
+
+            <ImageView
+                android:id="@+id/imageView155"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atislar10" />
+
+            <TextView
+                android:id="@+id/textView250"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özellikler"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView251"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.) Hareketin hızı, ivmesi ve süresi kütleye bağlı değildir. "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView252"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.) Tepe noktasında hız sıfırdır. "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView253"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.) Cismin tepeye çıkış süresi iniş süresine eşittir.  "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView254"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.) Cismin ilk hız değeri son hız değerine eşit olur ve cisim atıldığı noktaya düşer.  "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView255"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YATAY ATIŞ HAREKETİ "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView256"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yatay atış hareketi iki boyutta incelenir. Düşeydeki hareketi serbest düşme hareketi iken yatayda ki hareketi sabit hızlı harekettir.  "
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView156"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atislar11" />
+
+            <ImageView
+                android:id="@+id/imageView157"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atislar12" />
+
+            <TextView
+                android:id="@+id/textView257"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EGİK ATIŞ "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView258"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eğik atış hareketi iki boyutta incelenir. Düşeydeki hareketi aşağıdan yukarıya düşey atış hareketi iken yataydaki hareketi sabit hızlı harekettir.  "
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView158"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atislar13" />
+
+            <ImageView
+                android:id="@+id/imageView159"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atislar14" />
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

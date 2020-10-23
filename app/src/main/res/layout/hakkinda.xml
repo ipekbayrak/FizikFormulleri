@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20sp">
+
+            <ImageView
+                android:id="@+id/imageView364"
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:padding="10sp"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:text="Bu uygulama, internet üzerinde bulunan websitelerinden alınan bilgilerin derlenmesiyle yapılmıştır."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alıntı yapılan web siteleri listesi aşağıdadır." />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="http://www.fizik.net.tr/\nhttps://www.fizikbilimi.gen.tr/\nhttp://www.ossmat.com\nhttp://www.fenokulu.net\nhttp://www.derszamani.net\nhttps://www.muhendisbeyinler.net\nuniversiteyehazirlik.tr.gg\nhttp://www.beycan.net" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

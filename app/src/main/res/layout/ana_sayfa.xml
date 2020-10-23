@@ -1,0 +1,36 @@
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20sp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:text="Fizik Formülleri"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uygulamamızı kullandığınız için teşekkür ederiz. \n\nBütün fizik formüllerini uygulamamızda toplamaya çalıştık. Ayrıca biraz da bilgi ekledik. Umarız faydalı olmuştur. Öneri ve görüşlerinizi yorum kısmına yazdığınız taktirde gerekli düzenleme ve değişiklikleri yapacağımızı bildiririz.\n\nÖğrenci arkadaşlarımıza hayatlarında başarılar dileriz.\n\nNasıl kullanılır?\nSol taraftki çekmececeyi açın ve formüllerini görmek istediğiniz fizik konusunu çekin. İyi çalışmalar. \n\nÖnemli not: Burdaki bilgiler sınavlara hazırlık için yeterli değildir. Ders kitabı yerine geçmez."
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

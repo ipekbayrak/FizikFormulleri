@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dalga boyu, bir dalga örüntüsünün tekrarlanan birimleri arasındaki mesafedir. Yaygın olarak Yunanca lamda (λ) harfi ile gösterilmektedir. Dalgaboyu frekans ile ters orantılıdır, dolayısıyla dalgaboyu uzadıkça frekans azalır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dalga boyunu hesaplama formülü "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="λ = v / f  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView570"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="λ: dalga boyu "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView588"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="v: dalga yayılma hızı "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView591"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="f: dalganın frekansı  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dalga1" />
+
+            <TextView
+                android:id="@+id/textView609"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dalga boyu, dalga hızının frekansa oranıdır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView614"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çoğu durumda, dalganın boşlukta ilerlediği kabulu ile dalga hızı (v) ışık hızı (c) olarak seçilir. Bu durumda aşağıdaki formül de geçerli olur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView615"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="λ = c / f  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView616"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dalga boyunu daha farklı yöntemlerle de hesaplayabiliriz. Bunun için ihtiyacımız olacak bazı tanımları yapalım:  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView617"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Devir, dalganın tekrarlanan en küçük örüntüsüdür.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView618"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frekans, bir saniyede kaç devir yapıldığını belirtir. Birimi Hertz (Hz)'dir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView619"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Periyot (T), 1 devirin ne kadar sürede tamamlandığını belirtir. Birimi saniye'dir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView620"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frekans ile periyot arasındaki ilişki şu şekilde tanımlanabilir:  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView622"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="T = 1 / f  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView623"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu durumda dalga boyunu şu şekilde de hesaplayabiliriz. Dalga boyu, dalga yayılma hızıyla periyodunun çarpımıdır. Yani,  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView624"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="λ = T x v  "
+                android:textSize="18sp" />
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

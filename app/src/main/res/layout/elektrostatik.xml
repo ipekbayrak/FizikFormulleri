@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basit atom modeli"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView229"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro1" />
+
+            <TextView
+                android:id="@+id/textView379"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Protonun yükü pozitif (+), elektronun yükü ise negatif (–) dir. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Üzerinde (–) yük fazlalığı olan cisimlere negatif yüklü cisim denir."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro2" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yani aynı cins yüklü cisimler birbirlerine zıt yönlerde kuvvet uygularlar ve birbirlerini iterler."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView238"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro3" />
+
+            <TextView
+                android:id="@+id/textView380"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zıt cins yüklü cisimler birbirlerini çekerler"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView381"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cisimlerin yükleri q1 ve q2 aralarındaki uzaklık d ise, birbirlerine uyguladıkları itme ya da çekme kuvveti,  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView239"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro4" />
+
+            <TextView
+                android:id="@+id/textView382"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İletken Cisimler  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView383"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Üzerinde serbestçe dolaşabilen yükler olan cisimlere iletken cisim denir. Genel olarak metaller iyi iletkenlerdir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView384"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yalıtkan Cisimler  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView385"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Üzerinde serbestçe dolaşabilir yükler olmayan cisimlere yalıtkan cisim denir. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView386"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ELEKTRİKLENME ÇEŞİTLERİ  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView387"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Sürtünme ile Elektriklenme  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView388"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sürtünme ile elektriklenmede birbirine sürtünen cisimlerden biri diğerine elektron verir ve kendisi pozitif (+) yükle yüklenir. Elektron alan cisim üzerinde (–) yük fazlalığı oluşacağı için negatif (–) yükle yüklenir. Alınan yük verilen yüke eşit olduğu için yük miktarı eşittir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView389"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 2. Dokunma ile Elektriklenme "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView240"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro5" />
+
+            <TextView
+                android:id="@+id/textView390"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (–) yüklü K küresi nötr L küresine dokundurulduğunda, K den L ye elektron geçişi olur ve sonra dengeye gelirler."
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView391"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (–) yüklü K küresi nötr L küresine dokundurulduğunda, K den L ye elektron geçişi olur ve sonra dengeye gelirler."
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView392"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yüklü cisimler birbirine dokundurulduktan sonra son yükleri, kürelerin kapasitelerine bağlıdır. "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView241"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro6" />
+
+            <TextView
+                android:id="@+id/textView393"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şekilde yarıçapla rı r1 ve r2, yükleri q1 ve q2 olan küreler iletken telle birleştirilip anahtar kapatılırsa yük alış verişi yaparlar ve son yükleri q’1 ve q’2 olur."
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView394"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kürelerin dokunma sonrası yük miktarları,  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView242"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro7" />
+
+            <TextView
+                android:id="@+id/textView395"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yüklü iki cisim birbirine dokundurulduğunda yüklerinin işareti ile ilgili üç durum vardır."
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView396"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Her ikisi de (+) yükle yüklenebilir"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView397"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Her ikisi de (-) yükle yüklenebilirler  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView398"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Her ikisi de nötr olabilir  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView399"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birisinin yükünün (+) diğerinin ki ise (-) olma ihtimali yoktur.  " />
+
+            <TextView
+                android:id="@+id/textView400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 3. Etki ile Elektriklenme"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView243"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro8" />
+
+            <TextView
+                android:id="@+id/textView401"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birisinin yükünün (+) diğerinin ki ise (-) olma ihtimali yoktur.  " />
+
+            <TextView
+                android:id="@+id/textView402"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yüksüz K ve L cisimleri birbirine temas halinde iken (+) yüklü bir M çubuğu yaklaştırılıyor. M çubuğundaki (+) yükler K küresinden L küresine (–) yükleri çeker. K küresinin çubuğa uzak olan kısmı (+) yükle yüklenir." />
+
+            <ImageView
+                android:id="@+id/imageView244"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro9" />
+
+            <TextView
+                android:id="@+id/textView403"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daha sonra küreler yalıtkan ayaklarından tutulup ayrılır ve M çubuğu uzaklaştırılırsa, K küresi (+), L küresi de (–) yükle yüklenmiş olur.	" />
+
+            <TextView
+                android:id="@+id/textView404"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="M çubuğu dokundurulmadan K ve L küreleri yüklenmiş olur. Böyle yüklemeye etki ile elektriklenme denir. " />
+
+            <TextView
+                android:id="@+id/textView405"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Etki ile elektriklenmede K ve L nin yarıçapları ne olursa olsun yük miktarları eşittir. Ayrıca çekilen ya da itilen yükler mümkün olan en uzaktan çekilir ya da mümkün olan en uzağa itilir." />
+
+            <ImageView
+                android:id="@+id/imageView245"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro10" />
+
+            <TextView
+                android:id="@+id/textView406"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şekildeki gibi (+) yüklü K cismi, nötr L cismine yaklaştırıldığında onu etki ile elektrikler. L nin K tarafında (–) yükler, diğer tarafında ise (+) yükler toplanır. K cismi L deki (–) yükleri çeker, (+) yükleri ise iter." />
+
+            <TextView
+                android:id="@+id/textView407"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fakat_d1_d2_oldu_u_i_in_f_fi_olur_ve_cisim_k_ye_do_ru_ekilir_k_taraf_ndan_ekilen_n_tr_l_cismi_k_ye_dokunursa_l_de_y_kle_y_klenir_ve_bu_durumda_da_l_k_resi_d_ey_konumun_di_er_taraf_na_do_ru_itilir" />
+
+            <TextView
+                android:id="@+id/textView408"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Topraklama  "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView409"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dünya çok büyük bir küre olduğu için kapasitesi çok büyüktür. Dolayısıyla toprakla temas halinde olan cisimler nötr haldedir.  " />
+
+            <ImageView
+                android:id="@+id/imageView246"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro11" />
+
+            <TextView
+                android:id="@+id/textView410"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(–) yüklü cisim iletken bir telletoprağa bağlanırsa cisimdeki fazla olan (–) yükler toprağa akar ve cisim nötr olur.(+) yüklü cisim iletken bir telle toprağa bağlanırsa, cisimdeki (+) yükler hareket edemeyeceği için, topraktan cisme (–) gelir ve cisim nötr olur. " />
+
+            <TextView
+                android:id="@+id/textView411"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nötr bir cisim etki ve topraklama yoluyla elektriklenebilir.  " />
+
+            <ImageView
+                android:id="@+id/imageView247"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro12" />
+
+            <TextView
+                android:id="@+id/textView412"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(–) yüklü K cismi nötr L cismine yaklaştırılırsa, L cisminin bir tarafı (+) diğer tarafı (–) yükle yüklenir.	" />
+
+            <ImageView
+                android:id="@+id/imageView248"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro13" />
+
+            <TextView
+                android:id="@+id/textView413"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="L cismi iletken bir telle toprağa bağlanırsa (–) yükler mümkün olan en uzağa yani toprağa kadar itilir.	" />
+
+            <ImageView
+                android:id="@+id/imageView249"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro14" />
+
+            <TextView
+                android:id="@+id/textView414"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daha sonra M cismi uzaklaştırılmadan toprak bağlantısı kesilirse, L deki (+) yükler kalır ve K cismi de uzaklaştırıldıktan sonra L cismi (+) yükle yüklenir.	"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView415"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ELEKTROSKOP"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView250"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro15" />
+
+            <TextView
+                android:id="@+id/textView416"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir cismin yüklü olup olmadığını, yüklü ise yükünün işaretini anlamaya yarayan alete elektroskop denir. Elektroskobun basitçe yapısı şekildeki gibidir. Metal bir topuz, metal bir tel, iletken çok hafif iki yaprak ve cam fanustan oluşmaktadır.	"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView417"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektroskop yüksüz iken, yapraklar kapalı ve yapraklar arasındaki açı sıfır derecedir. Elektroskop yüklendiğinde, her iki yaprakta aynı cins ve eşit yükle yüklenir ve birbirlerini iterek yapraklar açılır. Yapraklar arasındaki açı yük miktarı ile orantılıdır. Yük miktarı artarsa, açı artar, yük miktarı azalırsa, yapraklar arasındaki açı da azalır.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView251"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro16" />
+
+            <TextView
+                android:id="@+id/textView418"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yükün işaretini anlayabilmek için, yükünün işareti bilinen bir elektroskoba yüklü cismi yaklaştırmamız gerekir. Şekildeki (–) yüklü elektroskoba K cismi yaklaştırıldığında yapraklar biraz açılıyor.	"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView419"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yaprakların biraz açılmasının nedeni, yapraklardaki yük miktarının artmasıdır. Yani topuzdan yapraklara (–) yükler itilmiştir. Topuzdan yapraklara (–) yüklerin itilebilmesi için K cisminin yükünün işareti (–) olmalıdır.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView252"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro17" />
+
+            <TextView
+                android:id="@+id/textView420"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eğer K cismi yaklaştırıldığında elektroskobun yaprakları biraz kapanıyorsa, yapraklardaki yük miktarı azalıyor yani topuza yapraklardan yük çekiliyordur. Buna göre, K cisminin yükünün işareti (+) dır.	"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView421"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yüklü bir cisim, yüklü bir elektroskoba yaklaştırıldığında yapraklar biraz açılıyorsa , cisim ile elektroskop aynı cins yükle yüklü, yapraklar biraz kapanıyorsa , cisim elektroskopla zıt yüklüdür.Cisim yaklaştırılırken yapraklar biraz açılıyorsa, uzaklaştırılırken yapraklar biraz kapanıyordur.Yani yaklaşma  uzaklaşma birinin tersi olur."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView253"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro18" />
+
+            <TextView
+                android:id="@+id/textView422"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nötr bir elektroskoba (–) yüklü bir K cismi yaklaştırıldığında elektroskop etki ile elektriklenir. Yapraklar (–) yükle yüklenirken, topuz ise (+) yükle yüklenir, (+) yüklü cisim yaklaştırılsa idi, yapraklar (+), topuz ise (–) yükle yüklenirdi.	"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView254"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro19" />
+
+            <TextView
+                android:id="@+id/textView423"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yüklü bir cismi yüklü bir elektroskoba dokundurduğumuzda, yaprakların hareketinin nasıl olacağını anlamak için yük miktarlarını ve yükün işaretini bilmek gerekir.	"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView424"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1°) qE = – 3q, qK = +q ise, birbirlerine dokundurulduğunda, toplam yük qT = – 3q + q = – 2q olur ve bu yükü aralarında paylaşırlar. Dolayısıyla elektroskobun yük miktarı azalır ve yapraklar biraz kapanır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView425"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2°) qE = + q, qK = – q olsa idi elektroskobun yük miktarı sıfır olur ve yapraklar tamamen kapanırdı.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView426"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3°) qE = – q, qK = +4q ise, toplam yük  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView427"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="qT = + 4q – q = + 3q olur. Elektkroskobun ilk yükü (–) işaretli iken dokundurduktan sonra (+) işaretli olur. Bu durumda elektroskobun yaprakları önce kapanır, sonra tekrar açılır.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView255"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro20" />
+
+            <TextView
+                android:id="@+id/textView428"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elektroskop ve dokundurulan cismin yükünün işareti aynı ise, elektroskobun yapraklarının hareketini bilebilmek için kapasitelerinin de bilinmesi gerekir.	"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView429"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şekilde +q yüklü çubuk ve elektroskop birbirine dokundurulduğunda üç ihtimal vardır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView430"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1°) Kapasiteleri eşit ise, yük geçişi olmaz ve elektroskobun yaprakları arasındaki açı değişmez.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView431"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2°) Elektroskobun kapasitesi büyük ise, toplam yükün (+2q) yarıdan fazlasını alır ve yapraklar biraz açılır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView432"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3°) Çubuğun kapasitesi büyük ise, çubuk toplam yükün (+2q) yarıdan fazlasını alır ve elektroskobun yaprakları biraz kapanır.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView256"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro21" />
+
+            <TextView
+                android:id="@+id/textView433"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şekilde (–) yüklü bir cisim, (+) yüklüelektroskoba sürekli yaklaştırılıyor. Bu durumda elektroskobun topuzundaki (–) yüklerin (elektroskobun topuzu (+) yüklü olsa da (–) yüklerde vardır.) bir kısmı yapraklara itilir ve yapraklardaki (+) yük miktarı azalır. Dolayısıyla yapraklar biraz kapanır. Yaklaştırmaya devam edildiğinde ve yapraklardaki (+) yüke eşit miktar (–) yük itildiğinde, yapraklar tamamen kapanır.	"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView434"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yine yaklaştırılmaya devam edilir ve yapraklardaki (+) yükten daha fazla (–) yük itilirse, yapraklar (–) yükle yüklenir ve tekrar açılır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView435"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yüksüz (nötr) bir elektroskoba (–) yüklü bir cisim yaklaştırıldığında etki ile elektriklenir ve yapraklar (–), topuz (+) yükle yüklenir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView436"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bu durumda iken, elektroskobun topuzu topraklanırsa, yapraklardaki (–) yükler toprağa akar ve yapraklar tamamen kapanır. Çünkü iletilen yükler mümkün olan en uzağa yani toprağa itilir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView257"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro22" />
+
+            <TextView
+                android:id="@+id/textView437"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daha sonra toprak bağlantısı kesilir ve cisim uzaklaştırılırsa, elektroskop (+) yükle yüklenmiş olur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView438"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özel Durumlar  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView258"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro23" />
+
+            <TextView
+                android:id="@+id/textView439"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. İçi boş iletken bir küre yüklendiğinde, yükler kürenin dış yüzeyinde toplanır. Çünkü yükler birbirini karşılıklı olarak mümkün olan en uzağa yani dış yüzeye doğru iterler. İç yüzey nötr dür.	"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView259"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro24" />
+
+            <TextView
+                android:id="@+id/textView440"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Yine nötr bir kürenin iç yü-zeyine (–) yüklü X cismi dokundurduğumuzda, X küresi yükünün tamamını büyük küreye aktarır ve kendisi nötr hale gelir. Eğer (–) yüklü X küresi, büyük kürenin dışına dokundurulsaydı, toplam yükü aralarında yarıçapları oranında paylaşırlar idi.	"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView260"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro25" />
+
+            <TextView
+                android:id="@+id/textView441"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. (+) yüklü X küresi nötrkürenin içine değmeyecek şekilde salındırıldığında, etki ile elektriklenme olur. Kürenin iç yüzeyine (–) yükler çekilir. Dış yüzeyinde ise (+) yük fazlalığı oluşur.	"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView442"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Yüklü iletken cisimlerin sivri uçlarında daha fazla yük toplanır.	"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView443"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COULOMB KUVVETİ  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView261"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro26" />
+
+            <TextView
+                android:id="@+id/textView444"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aralarında d kadar uzaklık bulunan yüklü iki cisim birbirlerini, yüklerin çarpımı ile doğru, aralarındaki uzaklığın karesi ile ters orantılı olacak şekilde birbirlerine kuvvet uygularlar.	" />
+
+            <TextView
+                android:id="@+id/textView445"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yükler aynı işaretli ise birbirlerini iterler, zıt işaretli ise birbirlerini çekerler. Bu itme ve çekme kuvveti yüklerin değerleri ne olursa olsun, eşit büyüklükte ve zıt yönlüdür.  " />
+
+            <TextView
+                android:id="@+id/textView446"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="F1 = –F2  " />
+
+            <TextView
+                android:id="@+id/textView447"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yüklü cisimlerin birbirine uyguladıkları kuvvete Coulomb kuvveti denir. Coulomb kuvveti,  " />
+
+            <ImageView
+                android:id="@+id/imageView262"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro27" />
+
+            <TextView
+                android:id="@+id/textView448"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="bağıntısı ile hesaplanır. Burada,  " />
+
+            <TextView
+                android:id="@+id/textView449"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="F : Coulomb kuvveti  " />
+
+            <TextView
+                android:id="@+id/textView450"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d : Yüklü cisimlerin kütle merkezleri arasındaki uzaklık  " />
+
+            <TextView
+                android:id="@+id/textView451"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="k : Coulomb sabiti. Bu sabit, ortamın cinsine ve kullanılan birim sistemine bağlı olarak değişen bir sabittir.  " />
+
+            <TextView
+                android:id="@+id/textView452"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Boşluk ya da hava ortamında,  " />
+
+            <ImageView
+                android:id="@+id/imageView263"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro30" />
+
+            <TextView
+                android:id="@+id/textView453"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İkiden fazla yüklü cismin başka yüklü bir cisme uyguladığı toplam kuvvet bulunurken aşağıdaki aşamalar takip edilir.  " />
+
+            <TextView
+                android:id="@+id/textView454"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Yüklerin işaretine göre herbir yüklü cismin uyguladığı kuvvet vektörleri gösterilir.  " />
+
+            <TextView
+                android:id="@+id/textView455"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Coulomb bağıntısına göre, yüklerin büyüklüğüne ve aradaki uzaklığa bakılarak kuvvetlerin şiddetleri bulunur.  " />
+
+            <TextView
+                android:id="@+id/textView456"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Kuvvet vektörleri arasındaki açılar bulunur.  " />
+
+            <TextView
+                android:id="@+id/textView457"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Son olarakta bulunan bu kuvvet vektörlerinin vektörel toplamı yapılır.  " />
+
+            <ImageView
+                android:id="@+id/imageView264"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro31" />
+
+            <TextView
+                android:id="@+id/textView458"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şekilde, –q1 ve +q2 yüklü cisimlerin –q3 yüklü cisme uyguladığı kuvvetler ve toplam kuvvet gösterilmiştir.	" />
+
+            <ImageView
+                android:id="@+id/imageView265"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro32" />
+
+            <TextView
+                android:id="@+id/textView459"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şekilde ipek iplikle asılı q1 ve q2 yüklü cisimler birbirlerini iterek dengeye geliyorlar. Cisimlerin yüklerinin büyüklükleri ne olursa olsun birbirlerine uyguladıkları kuvvetlerin büyüklükleri eşittir.	" />
+
+            <TextView
+                android:id="@+id/textView460"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Taralı üçgenlerden tana değerleri yazılırsa,  " />
+
+            <TextView
+                android:id="@+id/textView461"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buna göre, açılar arasındaki ilişki kütleler arasındaki ilişkiye bağlıdır.  " />
+
+            <ImageView
+                android:id="@+id/imageView266"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/elektro33" />
+
+            <TextView
+                android:id="@+id/textView462"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. m1 = m2 ise a1 = a2 dir. " />
+
+            <TextView
+                android:id="@+id/textView463"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/b_m1_m2_ise_a1_a2_dir" />
+
+            <TextView
+                android:id="@+id/textView464"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c_m1_m2_ise_a1_a2_dir" />
+
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>

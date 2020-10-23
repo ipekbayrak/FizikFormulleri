@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Demir, Nikel ve Kobalt (Fe, Ni ve Co) gibi maddeleri çekme özelliği gösteren cisimlere denir. Mıknatıs çekebildiği maddelere Magnetik Madde, çekme özelliğinin en fazla olduğu uç kısımlarına da Mıknatısın Kutupları denir. Bir çubuk mıknatıs ikiye bölündüğünde her defasında yine iki kutuplu yeni fakat küçük bir mıknatıs oluşur. Hiçbir zaman tek kutuplu mıknatıs oluşamaz."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma1" />
+
+            <TextView
+                android:id="@+id/textView465"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir mıknatısın manyetik özelliklerini gösterebildiği bölgeye o mıknatısın Manyetik Alanı denir. Mıknatısın manyetik alanı N kutbundan, S kutbuna doğrudur. Manyetik alan kuvvet çizgileri asla birbirlerini kesmezler. Manyetik alan vektörel bir büyüklük olup, harfi ile gösterilir. Birimi [Weber/m2][Weber/m2]’dir. Aynı cins kutuplar birbirlerini iterken, zıt cins kutuplar birbirlerini çeker."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView267"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma2" />
+
+            <TextView
+                android:id="@+id/textView466"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maddeler manyetik özelliklerine göre üçe ayrılır: \n– Diamanyetik Madde: Manyetik alan içerisine konulduklarında alan zıt yönde ve zayıf olarak mıknatıslanan maddelere denir. \n– Paramanyetik Madde: Manyetik alan içerisine konulduklarında alan yönünde ve zayıf olarak mıknatıslanan maddelere denir. \n– Ferromanyetik Madde: Manyetik alan içerisine konulduklarında çok kuvvetli olarak mıknatıslanan maddelere denir."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView467"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yerin Manyetik Alanı "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView468"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İpe asılı mıknatıs çubuğu (Pusula) yaklaşık kuzey güney doğrultusuna göstermesine rağmen, tam coğrafi kuzey-güney doğrultusunda değildir. Yani yerkürenin coğrafi kutupları ile manyetik kutupları aynı doğrultuda değildir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView268"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma3" />
+
+            <TextView
+                android:id="@+id/textView469"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pusula iğnesinin aldığı doğrultu ile coğrafi kuzey güney doğrultusu arasında kalan açıya Sapma Açısı denir. Pusula iğnesi yere paralel konumda durmaz. Bir ucu biraz aşağı doğru eğilir. Pusula iğnesinin yatayla yaptığı açıya Eğilme Açısı denir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView269"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma4" />
+
+            <TextView
+                android:id="@+id/textView470"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manyetik Akı "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView471"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bir yüzeyden geçen toplam kuvvet çizgisi sayısına, o yüzeyden geçen Manyetik Akı denir.  Manyetik alan (+q) dik bir yüzeyden geçen manyetik akı;"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView270"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma5" />
+
+            <TextView
+                android:id="@+id/textView473"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ifadesi hesaplanabilir. Eğer yüzey alanı manyetik alana dik değil ise;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView271"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma6" />
+
+            <TextView
+                android:id="@+id/textView474"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Φ=B.A.Cosα"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView475"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ifadesi kullanılır. Manyetik akı birimi Weber ’dir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView476"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ELEKTRİK AKIMIN MAGNETİK ETKİSİ "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView477"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İçinden Akım Geçen Düz Bir Telin Manyetik Alanı "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView478"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telin çevresinde oluşan manyetik alan çizgileri, telin doğrultusuna merkez kabul eden çemberler biçimindedir.  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView479"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telden d kadar uzaktaki bir noktada meydana gelen manyetik alan;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView272"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma7" />
+
+            <ImageView
+                android:id="@+id/imageView273"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma23" />
+
+            <TextView
+                android:id="@+id/textView481"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sağ El Kuralı "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView482"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Başparmağımız akımın yönünü gösterecek şekilde tel avuç içine alınırsa, diğer dört parmağımız akımın oluşturduğu manyetik alanın yönünü gösterir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView483"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İçinden Akım Geçen Çembersel Telin Manyetik Alanı "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView484"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çembersel telden akım geçirildiğinde çemberin her tarafından manyetik alan oluşur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView485"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Çemberin merkezindeki manyetik alan;  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView274"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma8" />
+
+            <ImageView
+                android:id="@+id/imageView275"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma10" />
+
+            <TextView
+                android:id="@+id/textView486"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ifadesi ile bulunur. Manyetik alanın yönü ise sağ el kuralı ile bulunur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView487"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sağ El Kuralı "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView488"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dört parmağımız akımın yönünü gösterecek şekilde çember avuç içine alınırsa, baş parmağımız akımın oluşturduğu manyetik alanın yönünü  gösterir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView489"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İçinden Akım Geçen Selenoidin Manyetik Alanı "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView490"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uzunluğu L olan, N sarımlı Selenoidin üzerinden akım geçtiğinde Selenoidin içerisinde oluşan manyetik alan, her yerde düzgün ve makara eksenine paraleldir. Bu manyetik alanın şiddeti;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView276"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma11" />
+
+            <ImageView
+                android:id="@+id/imageView277"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma12" />
+
+            <TextView
+                android:id="@+id/textView491"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ifadesi ile bulunur. Manyetik alanın yönü ise sağ el kuralı ile bulunur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView492"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sağ El Kuralı "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView493"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dört parmağımız akımın yönünü gösterecek şekilde makara avuç içine alınırsa, başparmağımız akımın oluşturduğu manyetik alanın yönünü gösterir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView494"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MAGNETİK KUVVET "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView495"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Üzerinden Akım Geçen Tele Manyetik Alanda  Etkiyen Kuvvet  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView278"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma13" />
+
+            <TextView
+                android:id="@+id/textView496"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ifadesi ile bulunur. Bu kuvvetin yönü ise sağ el kuralı ile bulunur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView497"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sağ El Kuralı: Sağ elin başparmağı akım yönünü, diğer dört parmak manyetik alanın yönünü gösterecek şekilde birbirilerine dik tutulursa, avuç içinin gösterdiği yön manyetik kuvvetin yönünü gösterir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView498"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Üzerinden Akım Geçen Paralel İki Telin Birbirlerine  Uyguladıkları Manyetik Kuvvet "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView499"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Her iki telde üzerlerinden geçen akım nedeni ile çevrelerinde manyetik alan oluşur. Bu yüzden dolayı da birbirlerine eşit büyüklükte, fakat zıt yönde manyetik bir kuvvet uygularlar. Bu kuvvet;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView279"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma14" />
+
+            <ImageView
+                android:id="@+id/imageView280"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma17" />
+
+            <TextView
+                android:id="@+id/textView500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ifadesi ile bulunur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView501"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eğer tellerin üzerinden geçen akımlar aynı yönlü ise teller birbirlerini çeker, akımlar zıt yönlü ise teller birbirlerini iter.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView502"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manyetik Alanda Hareket Eden Yüklü Parçacıklara Etkiyen Manyetik Kuvvet "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView503"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yükü q olan bir cisim v hızıyla düzgün bir man-yetik alan içerisine girerse, cisme manyetik bir kuvvet etki eder. Bu kuvvet;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView281"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma15" />
+
+            <TextView
+                android:id="@+id/textView504"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ifadesi ile hesaplanabilir. Bu kuvvet hıza daima diktir. Bu yüzden cisim manyetik alan içerisinde kaldığı sürece düzgün dairesel hareket yapar. Bu hareket esnasında cismin izlediği yörüngenin yarıçapı;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView282"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma16" />
+
+            <TextView
+                android:id="@+id/textView505"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MAGNETİK İNDÜKSİYON "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView506"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İndüksiyon Elektromotor Kuvvet  "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView507"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İletken bir tel düzgün bir manyetik alandan v hızıyla geçirilecek olursa, tel içerisindeki serbest elektronların bir köşede biriktiği gözlenir. Dolayısıyla diğer uçta pozitif yük birikimi olur. Pozitif ve negatif yükler arasında bir elektrik alan meydana gelir. Bu birikim esnasında elektrik alanın meydana getirdiği kuvvet manyetik kuvvete eşit olur ve elektron akışı durur. Bu esnada biriken yükler arasında elektromotor kuvveti oluşur. Telin uçları arasında oluşan emk;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView283"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma18" />
+
+            <TextView
+                android:id="@+id/textView508"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lenz Kanunu "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView509"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İndüksiyon emk’sının yönü kendini meydana getiren sebebe karşı koyacak yöndedir.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView510"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manyetik Akı Değişimi "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView511"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manyetik akı değişimi, akının son değeri ile ilk değeri arasındaki farktır.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView512"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Φ=Φ2–Φ1"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView513"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manyetik alanda hareket eden tel halka içerisindeki manyetik akı değişimi halkada bir indüksiyon emk’sı doğmasına sebep olur. Halkada oluşan emk;  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView284"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma19" />
+
+            <ImageView
+                android:id="@+id/imageView285"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma20" />
+
+            <TextView
+                android:id="@+id/textView514"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ifadesinden bulunur. Burada (-) işareti lenz kanunu gereği konulmuştur.  "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView515"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Özindüksiyon Emk’sı "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView516"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Şekildeki devrede K anahtarı kapatılıp açıldığında devre akımının değişmesi sağlanır. Bu değişim seleonoid içerisinde oluşan manyetik akıyı da değiştirir. Bunun sonucunda bir emk oluşur. Bu emk’ya Özindüksiyon Emk’sı denir.  "
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView286"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/manyetizma21" />
+        </LinearLayout></ScrollView></android.support.constraint.ConstraintLayout>
